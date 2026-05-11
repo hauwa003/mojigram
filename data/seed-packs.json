@@ -1,0 +1,92 @@
+[
+  {
+    "id": "pack_movies",
+    "name": "Movies",
+    "slug": "movies",
+    "emoji_icon": "🎬",
+    "description": "Guess the movie from emojis",
+    "color": "#7C3AED",
+    "sort_order": 1
+  },
+  {
+    "id": "pack_songs",
+    "name": "Songs",
+    "slug": "songs",
+    "emoji_icon": "🎵",
+    "description": "Name that tune from emojis",
+    "color": "#EC4899",
+    "sort_order": 2
+  },
+  {
+    "id": "pack_food",
+    "name": "Food & Drink",
+    "slug": "food",
+    "emoji_icon": "🍕",
+    "description": "Tasty emoji puzzles",
+    "color": "#F97316",
+    "sort_order": 3
+  },
+  {
+    "id": "pack_animals",
+    "name": "Animals",
+    "slug": "animals",
+    "emoji_icon": "🐾",
+    "description": "Wild emoji creatures",
+    "color": "#22C55E",
+    "sort_order": 4
+  },
+  {
+    "id": "pack_places",
+    "name": "Places",
+    "slug": "places",
+    "emoji_icon": "🌍",
+    "description": "Around the world in emojis",
+    "color": "#3B82F6",
+    "sort_order": 5
+  },
+  {
+    "id": "pack_sports",
+    "name": "Sports",
+    "slug": "sports",
+    "emoji_icon": "⚽",
+    "description": "Game on with emoji sports",
+    "color": "#EF4444",
+    "sort_order": 6
+  },
+  {
+    "id": "pack_books",
+    "name": "Books",
+    "slug": "books",
+    "emoji_icon": "📚",
+    "description": "Classic reads in emoji form",
+    "color": "#8B5CF6",
+    "sort_order": 7
+  },
+  {
+    "id": "pack_tv",
+    "name": "TV Shows",
+    "slug": "tv",
+    "emoji_icon": "📺",
+    "description": "Binge-worthy emoji puzzles",
+    "color": "#06B6D4",
+    "sort_order": 8
+  },
+  {
+    "id": "pack_celebs",
+    "name": "Famous People",
+    "slug": "celebs",
+    "emoji_icon": "⭐",
+    "description": "Celebrity emoji challenge",
+    "color": "#FACC15",
+    "sort_order": 9
+  },
+  {
+    "id": "pack_phrases",
+    "name": "Phrases & Sayings",
+    "slug": "phrases",
+    "emoji_icon": "💬",
+    "description": "Common phrases in emoji",
+    "color": "#14B8A6",
+    "sort_order": 10
+  }
+]
