@@ -43,7 +43,41 @@ export function stripAnswers(puzzle: Puzzle): PuzzleForPlay {
     difficulty: puzzle.difficulty,
     category: puzzle.category,
     accessibility_label: puzzle.accessibility_label,
+    level_order: puzzle.level_order,
   };
+}
+
+export function getPuzzlesByPackAndDifficulty(
+  packSlug: string,
+  difficulty: "easy" | "medium" | "hard"
+): Puzzle[] {
+  const pack = packs.find((p) => p.slug === packSlug);
+  if (!pack) return [];
+  return puzzles
+    .filter((p) => p.pack_id === pack.id && p.difficulty === difficulty)
+    .sort((a, b) => a.level_order - b.level_order);
+}
+
+export function getPuzzleByLevel(
+  packSlug: string,
+  difficulty: "easy" | "medium" | "hard",
+  levelOrder: number
+): Puzzle | undefined {
+  const pack = packs.find((p) => p.slug === packSlug);
+  if (!pack) return undefined;
+  return puzzles.find(
+    (p) =>
+      p.pack_id === pack.id &&
+      p.difficulty === difficulty &&
+      p.level_order === levelOrder
+  );
+}
+
+export function getLevelCount(
+  packSlug: string,
+  difficulty: "easy" | "medium" | "hard"
+): number {
+  return getPuzzlesByPackAndDifficulty(packSlug, difficulty).length;
 }
 
 export function getRandomPuzzles(

@@ -12,7 +12,7 @@ export function EmojiClueCard({ emojiClue, accessibilityLabel }: EmojiClueCardPr
   return (
     <motion.div
       key={emojiClue}
-      className="flex items-center justify-center py-8 bg-purple-light border-3 border-foreground rounded-xl shadow-brutal"
+      className="flex items-center justify-center py-8"
       role="img"
       aria-label={accessibilityLabel}
       initial={{ scale: 0.8, opacity: 0 }}
