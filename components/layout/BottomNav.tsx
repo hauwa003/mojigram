@@ -3,12 +3,10 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
-import { Home, CalendarDays, Target, Trophy, Settings } from "lucide-react";
+import { Home, Trophy, Settings } from "lucide-react";
 
 const navItems = [
   { href: "/", label: "Home", icon: Home },
-  { href: "/play/daily", label: "Daily", icon: CalendarDays },
-  { href: "/play/practice", label: "Practice", icon: Target },
   { href: "/leaderboard", label: "Ranks", icon: Trophy },
   { href: "/settings", label: "Settings", icon: Settings },
 ];

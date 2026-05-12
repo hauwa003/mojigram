@@ -10,7 +10,7 @@ export default function HomePage() {
   return (
     <AppShell>
       <motion.div
-        className="flex flex-col gap-6"
+        className="flex flex-col gap-6 justify-center min-h-[calc(100dvh-10rem)]"
         variants={staggerContainer}
         initial="hidden"
         animate="visible"
