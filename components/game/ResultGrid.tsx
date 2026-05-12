@@ -37,9 +37,9 @@ export function ResultGrid({
   }
 
   return (
-    <div className="space-y-6">
+    <div className="flex flex-col gap-6">
       {/* Score Summary */}
-      <div className="text-center space-y-2">
+      <div className="text-center flex flex-col gap-2">
         <h2 className="font-heading text-3xl font-bold">{rankLabel}</h2>
         <p className="text-4xl font-heading font-bold text-primary">
           {totalScore}/{maxScore}
@@ -49,28 +49,26 @@ export function ResultGrid({
 
       {/* Puzzle Breakdown */}
       <Card>
-        <CardContent className="p-4 space-y-3">
+        <CardContent className="p-4 flex flex-col gap-3">
           {puzzleResults.map((result, i) => (
             <div key={i} className="flex items-center justify-between">
               <div className="flex items-center gap-3">
                 <span className="text-2xl">{result.emoji_clue}</span>
-                <div>
-                  <span
-                    className={`inline-block w-6 h-6 rounded text-center text-sm leading-6 ${
-                      result.status === "solved"
-                        ? result.attempts === 1
-                          ? "bg-green text-white"
-                          : "bg-yellow text-foreground"
-                        : "bg-destructive text-white"
-                    }`}
-                  >
-                    {result.status === "solved"
+                <span
+                  className={`inline-block w-6 h-6 rounded text-center text-sm leading-6 ${
+                    result.status === "solved"
                       ? result.attempts === 1
-                        ? "🟩"
-                        : "🟨"
-                      : "🟥"}
-                  </span>
-                </div>
+                        ? "bg-green text-white"
+                        : "bg-yellow text-foreground"
+                      : "bg-destructive text-white"
+                  }`}
+                >
+                  {result.status === "solved"
+                    ? result.attempts === 1
+                      ? "🟩"
+                      : "🟨"
+                    : "🟥"}
+                </span>
               </div>
               <div className="text-right">
                 <p className="font-semibold">{result.score} pts</p>
@@ -84,7 +82,7 @@ export function ResultGrid({
       </Card>
 
       {/* Actions */}
-      <div className="space-y-3">
+      <div className="flex flex-col gap-3">
         <Button
           onClick={handleShare}
           className="w-full h-12 text-base font-semibold bg-primary hover:bg-primary/90"

@@ -14,9 +14,7 @@ export function AttemptsIndicator({ attempts, maxAttempts }: AttemptsIndicatorPr
         <div
           key={i}
           className={`w-3 h-3 rounded-full transition-colors ${
-            i < attempts
-              ? "bg-orange"
-              : "bg-muted"
+            i < attempts ? "bg-orange" : "bg-muted"
           }`}
         />
       ))}

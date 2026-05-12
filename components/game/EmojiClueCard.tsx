@@ -8,7 +8,7 @@ interface EmojiClueCardProps {
 export function EmojiClueCard({ emojiClue, accessibilityLabel }: EmojiClueCardProps) {
   return (
     <div
-      className="flex items-center justify-center py-8"
+      className="flex items-center justify-center py-8 bg-purple-light rounded-2xl"
       role="img"
       aria-label={accessibilityLabel}
     >

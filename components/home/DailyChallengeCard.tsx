@@ -12,7 +12,7 @@ export function DailyChallengeCard() {
   });
 
   return (
-    <Card className="border-2 border-primary/20 bg-gradient-to-br from-purple-light to-pink-light">
+    <Card className="border-2 border-primary/20 bg-purple-light">
       <CardContent className="p-5">
         <div className="flex items-center justify-between mb-3">
           <div>
