@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useParams, useRouter } from "next/navigation";
+import { useParams } from "next/navigation";
 import { AppShell } from "@/components/layout";
 import { GameScreen } from "@/components/game/GameScreen";
 import { createAnonymousId } from "@/lib/utils/createAnonymousId";
@@ -9,11 +9,11 @@ import type { PuzzleForPlay } from "@/types/puzzle";
 
 export default function PracticePackPage() {
   const params = useParams();
-  const router = useRouter();
   const packSlug = params.packSlug as string;
   const [puzzles, setPuzzles] = useState<PuzzleForPlay[]>([]);
   const [sessionId, setSessionId] = useState("");
   const [loading, setLoading] = useState(true);
+  const [gameKey, setGameKey] = useState(0);
 
   useEffect(() => {
     async function startPractice() {
@@ -45,7 +45,7 @@ export default function PracticePackPage() {
       }
     }
     startPractice();
-  }, [packSlug]);
+  }, [packSlug, gameKey]);
 
   if (loading) {
     return (
@@ -64,10 +64,14 @@ export default function PracticePackPage() {
           Practice: {packSlug}
         </h2>
         <GameScreen
+          key={gameKey}
           sessionId={sessionId}
           sessionType="practice"
           puzzles={puzzles}
-          onPlayAgain={() => router.refresh()}
+          onPlayAgain={() => {
+            setLoading(true);
+            setGameKey((k) => k + 1);
+          }}
         />
       </div>
     </AppShell>
