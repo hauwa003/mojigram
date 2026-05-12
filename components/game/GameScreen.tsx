@@ -12,6 +12,9 @@ import { ScoreBadge } from "./ScoreBadge";
 import { ResultGrid } from "./ResultGrid";
 import { HintModal } from "@/components/modals/HintModal";
 import { showCorrectFeedback, showWrongFeedback, showFailedFeedback } from "./FeedbackToast";
+import { NicknameModal } from "@/components/modals/NicknameModal";
+import { getNickname, saveNickname } from "@/lib/utils/nickname";
+import { createAnonymousId } from "@/lib/utils/createAnonymousId";
 import { track } from "@/lib/analytics/track";
 import type { PuzzleForPlay } from "@/types/puzzle";
 import type { GameState, PuzzleState, GameAction, SessionResult, PuzzleResult } from "@/types/game";
@@ -150,9 +153,32 @@ export function GameScreen({
   const [loading, setLoading] = useState(false);
   const [hintModalOpen, setHintModalOpen] = useState(false);
   const [currentHint, setCurrentHint] = useState("");
+  const [nicknameModalOpen, setNicknameModalOpen] = useState(false);
+  const [scoreSaved, setScoreSaved] = useState(false);
 
   const currentPuzzleState = state.puzzleStates[state.currentPuzzleIndex];
   const currentPuzzle = currentPuzzleState?.puzzle;
+
+  const saveScore = useCallback(async (nickname: string) => {
+    if (scoreSaved) return;
+    const maxScore = state.puzzles.length * 10;
+    try {
+      await fetch("/api/leaderboard", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          anonId: createAnonymousId(),
+          nickname,
+          sessionType,
+          totalScore: state.totalScore,
+          maxScore,
+        }),
+      });
+      setScoreSaved(true);
+    } catch {
+      // silently fail — leaderboard is best-effort
+    }
+  }, [scoreSaved, state.puzzles.length, state.totalScore, sessionType]);
 
   const handleSubmit = useCallback(async () => {
     if (!guess.trim() || loading || !currentPuzzle) return;
@@ -270,8 +296,26 @@ export function GameScreen({
       maxScore,
     });
 
+    // Auto-save score if nickname already exists
+    if (!scoreSaved && !nicknameModalOpen) {
+      const existing = getNickname();
+      if (existing) {
+        saveScore(existing);
+      } else {
+        setNicknameModalOpen(true);
+      }
+    }
+
     return (
       <div className="py-4">
+        <NicknameModal
+          open={nicknameModalOpen}
+          onSave={(name) => {
+            saveNickname(name);
+            setNicknameModalOpen(false);
+            saveScore(name);
+          }}
+        />
         <ResultGrid
           puzzleResults={puzzleResults}
           totalScore={state.totalScore}

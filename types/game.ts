@@ -47,3 +47,13 @@ export interface PuzzleResult {
   hintUsed: boolean;
   score: number;
 }
+
+export interface LeaderboardEntry {
+  id: string;
+  anonId: string;
+  nickname: string;
+  sessionType: SessionType;
+  totalScore: number;
+  maxScore: number;
+  completedAt: string;
+}
