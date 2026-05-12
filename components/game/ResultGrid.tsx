@@ -72,19 +72,19 @@ export function ResultGrid({
 
       {/* Score Summary */}
       <motion.div
-        className="text-center flex flex-col gap-2"
+        className="text-center flex flex-col gap-2 p-6 bg-purple-light border-3 border-foreground rounded-xl shadow-brutal"
         variants={scaleIn}
       >
-        <h2 className="font-heading text-3xl font-bold">{rankLabel}</h2>
-        <p className="text-4xl font-heading font-bold text-primary">
+        <h2 className="font-heading text-3xl font-extrabold">{rankLabel}</h2>
+        <p className="text-4xl font-heading font-extrabold text-primary">
           <AnimatedScore value={totalScore} />/{maxScore}
         </p>
-        <p className="text-muted-foreground text-sm">points</p>
+        <p className="text-muted-foreground text-sm font-medium">points</p>
       </motion.div>
 
       {/* Puzzle Breakdown */}
       <motion.div variants={staggerItem}>
-        <Card>
+        <Card className="border-3 border-foreground shadow-brutal">
           <CardContent className="p-4 flex flex-col gap-3">
             {puzzleResults.map((result, i) => (
               <motion.div
@@ -97,7 +97,7 @@ export function ResultGrid({
                 <div className="flex items-center gap-3">
                   <span className="text-2xl">{result.emoji_clue}</span>
                   <span
-                    className={`inline-block w-6 h-6 rounded text-center text-sm leading-6 ${
+                    className={`inline-block w-7 h-7 rounded-lg border-2 border-foreground text-center text-sm leading-6 font-bold ${
                       result.status === "solved"
                         ? result.attempts === 1
                           ? "bg-green text-white"
@@ -113,7 +113,7 @@ export function ResultGrid({
                   </span>
                 </div>
                 <div className="text-right">
-                  <p className="font-semibold">{result.score} pts</p>
+                  <p className="font-bold">{result.score} pts</p>
                   {result.hintUsed && (
                     <p className="text-xs text-muted-foreground">hint used</p>
                   )}
@@ -126,20 +126,20 @@ export function ResultGrid({
 
       {/* Actions */}
       <motion.div className="flex flex-col gap-3" variants={staggerItem}>
-        <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.95 }} transition={spring.bouncy}>
+        <motion.div whileTap={{ scale: 0.97, x: 2, y: 2 }} transition={spring.bouncy}>
           <Button
             onClick={handleShare}
-            className="w-full h-12 text-base font-semibold bg-primary hover:bg-primary/90 shadow-purple"
+            className="w-full h-12 text-base font-extrabold bg-primary hover:bg-primary/90 border-3 border-foreground shadow-brutal brutal-press"
           >
             📤 Share Results
           </Button>
         </motion.div>
         {onPlayAgain && (
-          <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.95 }} transition={spring.bouncy}>
+          <motion.div whileTap={{ scale: 0.97, x: 2, y: 2 }} transition={spring.bouncy}>
             <Button
               onClick={onPlayAgain}
               variant="outline"
-              className="w-full h-12 text-base"
+              className="w-full h-12 text-base font-bold border-3 border-foreground shadow-brutal-sm brutal-press"
             >
               Play Again
             </Button>

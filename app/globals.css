@@ -2,8 +2,6 @@
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 
-@custom-variant dark (&:is(.dark *));
-
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -91,70 +89,23 @@
   --accent: #FCE7F3;
   --accent-foreground: #BE185D;
   --destructive: #EF4444;
-  --border: #E5E7EB;
-  --input: #E5E7EB;
+  --border: #1E1B4B;
+  --input: #1E1B4B;
   --ring: #8B5CF6;
   --chart-1: #8B5CF6;
   --chart-2: #F472B6;
   --chart-3: #FBBF24;
   --chart-4: #34D399;
   --chart-5: #FB923C;
-  --radius: 1rem;
+  --radius: 0.75rem;
   --sidebar: #F5F3FF;
   --sidebar-foreground: #1E1B4B;
   --sidebar-primary: #8B5CF6;
   --sidebar-primary-foreground: #FFFFFF;
   --sidebar-accent: #EDE9FE;
   --sidebar-accent-foreground: #5B21B6;
-  --sidebar-border: #E5E7EB;
+  --sidebar-border: #1E1B4B;
   --sidebar-ring: #8B5CF6;
-}
-
-.dark {
-  --purple: #A78BFA;
-  --purple-light: #1E1533;
-  --pink: #F9A8D4;
-  --pink-light: #2A1525;
-  --yellow: #FCD34D;
-  --yellow-light: #2A2510;
-  --green: #6EE7B7;
-  --green-light: #0F2A1D;
-  --orange: #FDBA74;
-  --orange-light: #2A1F10;
-  --blue: #93C5FD;
-  --blue-light: #0F1A2A;
-
-  --background: #0F0A1A;
-  --foreground: #E8E5F0;
-  --card: #1A1230;
-  --card-foreground: #E8E5F0;
-  --popover: #1A1230;
-  --popover-foreground: #E8E5F0;
-  --primary: #A78BFA;
-  --primary-foreground: #0F0A1A;
-  --secondary: #1E1533;
-  --secondary-foreground: #C4B5FD;
-  --muted: #1E1533;
-  --muted-foreground: #9CA3AF;
-  --accent: #2A1525;
-  --accent-foreground: #F9A8D4;
-  --destructive: #F87171;
-  --border: #2E2547;
-  --input: #2E2547;
-  --ring: #A78BFA;
-  --chart-1: #A78BFA;
-  --chart-2: #F9A8D4;
-  --chart-3: #FCD34D;
-  --chart-4: #6EE7B7;
-  --chart-5: #FDBA74;
-  --sidebar: #1A1230;
-  --sidebar-foreground: #E8E5F0;
-  --sidebar-primary: #A78BFA;
-  --sidebar-primary-foreground: #0F0A1A;
-  --sidebar-accent: #1E1533;
-  --sidebar-accent-foreground: #C4B5FD;
-  --sidebar-border: #2E2547;
-  --sidebar-ring: #A78BFA;
 }
 
 @layer base {
@@ -169,27 +120,43 @@
   }
 }
 
-/* Colored shadows */
-.shadow-purple {
-  box-shadow: 0 4px 14px -3px rgba(139, 92, 246, 0.3);
+/* Neo-brutalist hard shadows */
+.shadow-brutal {
+  box-shadow: 4px 4px 0px var(--foreground);
 }
-.shadow-pink {
-  box-shadow: 0 4px 14px -3px rgba(244, 114, 182, 0.3);
+.shadow-brutal-sm {
+  box-shadow: 2px 2px 0px var(--foreground);
 }
-.shadow-blue {
-  box-shadow: 0 4px 14px -3px rgba(96, 165, 250, 0.3);
+.shadow-brutal-purple {
+  box-shadow: 4px 4px 0px var(--purple);
 }
-.shadow-green {
-  box-shadow: 0 4px 14px -3px rgba(52, 211, 153, 0.3);
+.shadow-brutal-pink {
+  box-shadow: 4px 4px 0px var(--pink);
 }
-.shadow-orange {
-  box-shadow: 0 4px 14px -3px rgba(251, 146, 60, 0.3);
+.shadow-brutal-blue {
+  box-shadow: 4px 4px 0px var(--blue);
+}
+.shadow-brutal-green {
+  box-shadow: 4px 4px 0px var(--green);
+}
+.shadow-brutal-orange {
+  box-shadow: 4px 4px 0px var(--orange);
+}
+.shadow-brutal-yellow {
+  box-shadow: 4px 4px 0px var(--yellow);
+}
+
+/* Pressed state (shadow disappears, element shifts) */
+.brutal-press:active {
+  transform: translate(2px, 2px);
+  box-shadow: 0px 0px 0px var(--foreground) !important;
 }
 
 /* Toast styling */
 [data-sonner-toaster] [data-sonner-toast] {
   font-family: var(--font-heading);
-  border-radius: 1rem;
+  border-radius: 0.75rem;
+  border: 2px solid var(--foreground);
 }
 
 /* Reduced motion support */

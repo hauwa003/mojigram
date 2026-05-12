@@ -4,17 +4,17 @@
     "name": "Movies",
     "slug": "movies",
     "emoji_icon": "🎬",
-    "description": "Guess the movie from emojis",
-    "color": "#7C3AED",
+    "description": "Decode movie titles from emoji parts",
+    "color": "#8B5CF6",
     "sort_order": 1
   },
   {
     "id": "pack_songs",
-    "name": "Songs",
+    "name": "Music",
     "slug": "songs",
     "emoji_icon": "🎵",
-    "description": "Name that tune from emojis",
-    "color": "#EC4899",
+    "description": "Name the song or artist from emojis",
+    "color": "#F472B6",
     "sort_order": 2
   },
   {
@@ -22,8 +22,8 @@
     "name": "Food & Drink",
     "slug": "food",
     "emoji_icon": "🍕",
-    "description": "Tasty emoji puzzles",
-    "color": "#F97316",
+    "description": "What food do these emojis spell?",
+    "color": "#FB923C",
     "sort_order": 3
   },
   {
@@ -31,17 +31,17 @@
     "name": "Animals",
     "slug": "animals",
     "emoji_icon": "🐾",
-    "description": "Wild emoji creatures",
-    "color": "#22C55E",
+    "description": "Which creature do these emojis make?",
+    "color": "#34D399",
     "sort_order": 4
   },
   {
     "id": "pack_places",
-    "name": "Places",
+    "name": "Places & Nature",
     "slug": "places",
     "emoji_icon": "🌍",
-    "description": "Around the world in emojis",
-    "color": "#3B82F6",
+    "description": "Where do these emojis take you?",
+    "color": "#60A5FA",
     "sort_order": 5
   },
   {
@@ -49,17 +49,17 @@
     "name": "Sports",
     "slug": "sports",
     "emoji_icon": "⚽",
-    "description": "Game on with emoji sports",
+    "description": "What sport term is hiding here?",
     "color": "#EF4444",
     "sort_order": 6
   },
   {
     "id": "pack_books",
-    "name": "Books",
+    "name": "Books & Reading",
     "slug": "books",
     "emoji_icon": "📚",
-    "description": "Classic reads in emoji form",
-    "color": "#8B5CF6",
+    "description": "Decode the bookish word",
+    "color": "#A78BFA",
     "sort_order": 7
   },
   {
@@ -67,7 +67,7 @@
     "name": "TV Shows",
     "slug": "tv",
     "emoji_icon": "📺",
-    "description": "Binge-worthy emoji puzzles",
+    "description": "Guess the show from emoji parts",
     "color": "#06B6D4",
     "sort_order": 8
   },
@@ -76,8 +76,8 @@
     "name": "Famous People",
     "slug": "celebs",
     "emoji_icon": "⭐",
-    "description": "Celebrity emoji challenge",
-    "color": "#FACC15",
+    "description": "Which celeb do these emojis spell?",
+    "color": "#FBBF24",
     "sort_order": 9
   },
   {
@@ -85,7 +85,7 @@
     "name": "Phrases & Sayings",
     "slug": "phrases",
     "emoji_icon": "💬",
-    "description": "Common phrases in emoji",
+    "description": "What saying do these emojis make?",
     "color": "#14B8A6",
     "sort_order": 10
   }

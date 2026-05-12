@@ -26,20 +26,20 @@ export function PackCard({
     >
       <Card
         onClick={onClick}
-        className={`cursor-pointer transition-all ${
+        className={`cursor-pointer transition-all border-3 border-foreground ${
           selected
-            ? "border-2 border-primary shadow-purple ring-2 ring-primary/20"
-            : "border-2 border-border hover:shadow-sm"
+            ? "bg-purple-light shadow-brutal-purple"
+            : "bg-card shadow-brutal-sm hover:shadow-brutal"
         }`}
       >
         <CardContent className="p-4 text-center flex flex-col gap-1.5">
           <span className="text-3xl">{emoji_icon}</span>
-          <h3 className="font-heading text-sm font-bold">{name}</h3>
+          <h3 className="font-heading text-sm font-extrabold">{name}</h3>
           <p className="text-xs text-muted-foreground line-clamp-2">
             {description}
           </p>
           {selected && (
-            <span className="inline-block text-xs bg-primary text-white px-2 py-0.5 rounded-full">
+            <span className="inline-block text-xs bg-primary text-white px-2 py-0.5 rounded-full border-2 border-foreground font-bold">
               Selected
             </span>
           )}

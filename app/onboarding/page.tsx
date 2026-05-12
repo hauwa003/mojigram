@@ -51,14 +51,14 @@ export default function OnboardingPage() {
   const step = steps[currentStep];
 
   return (
-    <div className="min-h-dvh flex flex-col items-center justify-center px-6 bg-gradient-to-b from-background to-purple-light">
+    <div className="min-h-dvh flex flex-col items-center justify-center px-6 bg-background">
       <div className="max-w-sm w-full flex flex-col gap-8 text-center">
         {/* Step indicator */}
         <div className="flex justify-center gap-2">
           {steps.map((_, i) => (
             <motion.div
               key={i}
-              className={`h-1.5 rounded-full ${
+              className={`h-2 rounded-full border-2 border-foreground ${
                 i === currentStep
                   ? "bg-primary"
                   : i < currentStep
@@ -83,14 +83,16 @@ export default function OnboardingPage() {
             exit={{ opacity: 0, x: direction * -60 }}
             transition={spring.gentle}
           >
-            <motion.span
-              className="text-6xl inline-block"
-              animate={emojiAnimations[currentStep]}
-              transition={{ duration: 1.2, delay: 0.3, ease: "easeInOut" }}
-            >
-              {step.emoji}
-            </motion.span>
-            <h2 className="font-heading text-2xl font-bold">{step.title}</h2>
+            <div className="w-24 h-24 rounded-xl bg-purple-light border-3 border-foreground shadow-brutal flex items-center justify-center">
+              <motion.span
+                className="text-5xl inline-block"
+                animate={emojiAnimations[currentStep]}
+                transition={{ duration: 1.2, delay: 0.3, ease: "easeInOut" }}
+              >
+                {step.emoji}
+              </motion.span>
+            </div>
+            <h2 className="font-heading text-2xl font-extrabold">{step.title}</h2>
             <p className="text-muted-foreground leading-relaxed">
               {step.description}
             </p>
@@ -99,10 +101,10 @@ export default function OnboardingPage() {
 
         {/* Actions */}
         <div className="flex flex-col gap-3">
-          <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.95 }} transition={spring.bouncy}>
+          <motion.div whileTap={{ scale: 0.97, x: 2, y: 2 }} transition={spring.bouncy}>
             <Button
               onClick={handleNext}
-              className="w-full h-12 text-base font-semibold bg-primary hover:bg-primary/90 shadow-purple"
+              className="w-full h-12 text-base font-extrabold bg-primary hover:bg-primary/90 border-3 border-foreground shadow-brutal brutal-press"
             >
               {currentStep < steps.length - 1 ? "Next" : "Let's Play!"}
             </Button>
