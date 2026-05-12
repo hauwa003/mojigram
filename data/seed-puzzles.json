@@ -249,7 +249,7 @@
   {
     "id": "puz_018",
     "pack_id": "pack_movies",
-    "emoji_clue": "🧊👴",
+    "emoji_clue": "🧊❄️🏔️🦣👴",
     "canonical_answer": "Ice Age",
     "accepted_answers": [
       "ice age"
@@ -263,7 +263,7 @@
   {
     "id": "puz_019",
     "pack_id": "pack_movies",
-    "emoji_clue": "🐺🔥🧱",
+    "emoji_clue": "🐷🐷🐷🐺🌬️🧱",
     "canonical_answer": "The Three Little Pigs",
     "accepted_answers": [
       "the three little pigs",
@@ -278,7 +278,7 @@
   {
     "id": "puz_020",
     "pack_id": "pack_movies",
-    "emoji_clue": "⚡⚡",
+    "emoji_clue": "⚡🏃💨🔴⚡",
     "canonical_answer": "The Flash",
     "accepted_answers": [
       "the flash",
@@ -293,7 +293,7 @@
   {
     "id": "puz_021",
     "pack_id": "pack_movies",
-    "emoji_clue": "🌹👹",
+    "emoji_clue": "👸🌹👹🏰🕯️",
     "canonical_answer": "Beauty and the Beast",
     "accepted_answers": [
       "beauty and the beast"
@@ -307,7 +307,7 @@
   {
     "id": "puz_022",
     "pack_id": "pack_movies",
-    "emoji_clue": "🧲❌👨",
+    "emoji_clue": "❌👨👩⚡🦸",
     "canonical_answer": "X-Men",
     "accepted_answers": [
       "x-men",
@@ -323,7 +323,7 @@
   {
     "id": "puz_023",
     "pack_id": "pack_movies",
-    "emoji_clue": "🤖👮",
+    "emoji_clue": "🤖👮🔫🦾🏙️",
     "canonical_answer": "RoboCop",
     "accepted_answers": [
       "robocop",
@@ -338,7 +338,7 @@
   {
     "id": "puz_024",
     "pack_id": "pack_movies",
-    "emoji_clue": "🌊🗡️",
+    "emoji_clue": "🌊👨🔱🐠🦈",
     "canonical_answer": "Aquaman",
     "accepted_answers": [
       "aquaman",
@@ -353,7 +353,7 @@
   {
     "id": "puz_025",
     "pack_id": "pack_movies",
-    "emoji_clue": "🌕🐺",
+    "emoji_clue": "👦🌕🐺🏀🌙",
     "canonical_answer": "Teen Wolf",
     "accepted_answers": [
       "teen wolf"
@@ -367,7 +367,7 @@
   {
     "id": "puz_026",
     "pack_id": "pack_movies",
-    "emoji_clue": "🥋🐼",
+    "emoji_clue": "🥋👊🐼🐉🏯",
     "canonical_answer": "Kung Fu Panda",
     "accepted_answers": [
       "kung fu panda"
@@ -381,7 +381,7 @@
   {
     "id": "puz_027",
     "pack_id": "pack_movies",
-    "emoji_clue": "🔙➡️🔮",
+    "emoji_clue": "🔙⏰🚗⚡🔮",
     "canonical_answer": "Back to the Future",
     "accepted_answers": [
       "back to the future"
@@ -395,7 +395,7 @@
   {
     "id": "puz_028",
     "pack_id": "pack_movies",
-    "emoji_clue": "🏃💨",
+    "emoji_clue": "🏎️💨😡🔥🏁",
     "canonical_answer": "The Fast and the Furious",
     "accepted_answers": [
       "the fast and the furious",
@@ -410,7 +410,7 @@
   {
     "id": "puz_029",
     "pack_id": "pack_movies",
-    "emoji_clue": "🦍👑",
+    "emoji_clue": "👑🦍🏙️🏢✈️",
     "canonical_answer": "King Kong",
     "accepted_answers": [
       "king kong"
@@ -424,7 +424,7 @@
   {
     "id": "puz_030",
     "pack_id": "pack_movies",
-    "emoji_clue": "👽📱",
+    "emoji_clue": "👽☝️📱🌍🚲",
     "canonical_answer": "E.T.",
     "accepted_answers": [
       "e.t.",
@@ -440,7 +440,7 @@
   {
     "id": "puz_031",
     "pack_id": "pack_movies",
-    "emoji_clue": "🕶️🔫",
+    "emoji_clue": "🕶️💊🖥️🤖🔫",
     "canonical_answer": "The Matrix",
     "accepted_answers": [
       "the matrix",
@@ -455,7 +455,7 @@
   {
     "id": "puz_032",
     "pack_id": "pack_movies",
-    "emoji_clue": "🧟‍♂️🌍",
+    "emoji_clue": "🌍⚔️🧟‍♂️🧟‍♀️💀",
     "canonical_answer": "World War Z",
     "accepted_answers": [
       "world war z"
@@ -469,7 +469,7 @@
   {
     "id": "puz_033",
     "pack_id": "pack_movies",
-    "emoji_clue": "🏠👻",
+    "emoji_clue": "🏠👻💀🕸️🌙",
     "canonical_answer": "Haunted Mansion",
     "accepted_answers": [
       "haunted mansion",
@@ -484,7 +484,7 @@
   {
     "id": "puz_034",
     "pack_id": "pack_movies",
-    "emoji_clue": "🐝🎬",
+    "emoji_clue": "🐝🍯🎬📽️🌻",
     "canonical_answer": "Bee Movie",
     "accepted_answers": [
       "bee movie"
@@ -498,7 +498,7 @@
   {
     "id": "puz_035",
     "pack_id": "pack_movies",
-    "emoji_clue": "🍊🔧⏰",
+    "emoji_clue": "⏰⚙️🔧🍊📖🎬👁️",
     "canonical_answer": "A Clockwork Orange",
     "accepted_answers": [
       "a clockwork orange",
@@ -513,7 +513,7 @@
   {
     "id": "puz_036",
     "pack_id": "pack_movies",
-    "emoji_clue": "🔕🐑",
+    "emoji_clue": "🤫🔇🐑🐑🦋👤🍷",
     "canonical_answer": "The Silence of the Lambs",
     "accepted_answers": [
       "the silence of the lambs",
@@ -528,7 +528,7 @@
   {
     "id": "puz_037",
     "pack_id": "pack_movies",
-    "emoji_clue": "🗡️🏃‍♂️",
+    "emoji_clue": "🗡️🏃‍♂️🌧️🤖🏙️🌃",
     "canonical_answer": "Blade Runner",
     "accepted_answers": [
       "blade runner"
@@ -542,7 +542,7 @@
   {
     "id": "puz_038",
     "pack_id": "pack_movies",
-    "emoji_clue": "💀🏊",
+    "emoji_clue": "💀🏊‍♂️⚔️🎭😂🔴",
     "canonical_answer": "Dead Pool",
     "accepted_answers": [
       "deadpool",
@@ -557,7 +557,7 @@
   {
     "id": "puz_039",
     "pack_id": "pack_movies",
-    "emoji_clue": "🔨👇",
+    "emoji_clue": "🔨📌✅🎂🤦💥",
     "canonical_answer": "Nailed It",
     "accepted_answers": [
       "nailed it"
@@ -571,7 +571,7 @@
   {
     "id": "puz_040",
     "pack_id": "pack_movies",
-    "emoji_clue": "🌃🕷️🕸️",
+    "emoji_clue": "🕷️👨🌀🌃🕸️🎨✨",
     "canonical_answer": "Spider-Man: Into the Spider-Verse",
     "accepted_answers": [
       "into the spider verse",
@@ -586,7 +586,7 @@
   {
     "id": "puz_041",
     "pack_id": "pack_movies",
-    "emoji_clue": "🪖🌙",
+    "emoji_clue": "🌙💡🌊👦🔵🌃",
     "canonical_answer": "Moonlight",
     "accepted_answers": [
       "moonlight"
@@ -600,7 +600,7 @@
   {
     "id": "puz_042",
     "pack_id": "pack_movies",
-    "emoji_clue": "🔫🌹",
+    "emoji_clue": "🔫🔫🌹🌹🎸🤘",
     "canonical_answer": "Guns N' Roses",
     "accepted_answers": [
       "guns n roses"
@@ -614,7 +614,7 @@
   {
     "id": "puz_043",
     "pack_id": "pack_movies",
-    "emoji_clue": "🦅👁️",
+    "emoji_clue": "🐦📦👁️🚫🌫️😱",
     "canonical_answer": "Bird Box",
     "accepted_answers": [
       "bird box",
@@ -629,7 +629,7 @@
   {
     "id": "puz_044",
     "pack_id": "pack_movies",
-    "emoji_clue": "🧊🔨",
+    "emoji_clue": "🧊🔨💥🤝👋🗣️",
     "canonical_answer": "Ice Breaker",
     "accepted_answers": [
       "icebreaker",
@@ -644,7 +644,7 @@
   {
     "id": "puz_045",
     "pack_id": "pack_movies",
-    "emoji_clue": "💡📅",
+    "emoji_clue": "💡☀️📅🌅✨🌤️",
     "canonical_answer": "Bright Day",
     "accepted_answers": [
       "bright day",
@@ -659,7 +659,7 @@
   {
     "id": "puz_046",
     "pack_id": "pack_movies",
-    "emoji_clue": "🌊🚢💔",
+    "emoji_clue": "🚢🧊🌊💔❄️🌙🎻",
     "canonical_answer": "Titanic",
     "accepted_answers": [
       "titanic"
@@ -673,7 +673,7 @@
   {
     "id": "puz_047",
     "pack_id": "pack_movies",
-    "emoji_clue": "🧬🦕",
+    "emoji_clue": "🧬🦕🦖🏞️🌴⚡",
     "canonical_answer": "Jurassic Park",
     "accepted_answers": [
       "jurassic park"
@@ -687,7 +687,7 @@
   {
     "id": "puz_048",
     "pack_id": "pack_movies",
-    "emoji_clue": "👸📿",
+    "emoji_clue": "👸📓✍️👑🏰📿",
     "canonical_answer": "The Princess Diaries",
     "accepted_answers": [
       "the princess diaries",
@@ -702,7 +702,7 @@
   {
     "id": "puz_049",
     "pack_id": "pack_movies",
-    "emoji_clue": "🌀🦈",
+    "emoji_clue": "🌪️🦈🌀🌊💨🏠",
     "canonical_answer": "Sharknado",
     "accepted_answers": [
       "sharknado"
@@ -716,7 +716,7 @@
   {
     "id": "puz_050",
     "pack_id": "pack_movies",
-    "emoji_clue": "🧱🗡️",
+    "emoji_clue": "🧱🧱🏰🗡️❄️👀",
     "canonical_answer": "The Wall",
     "accepted_answers": [
       "the wall"
@@ -972,7 +972,7 @@
   {
     "id": "puz_068",
     "pack_id": "pack_songs",
-    "emoji_clue": "🎸🌟",
+    "emoji_clue": "🎸🪨⭐🎤🤘",
     "canonical_answer": "Rock Star",
     "accepted_answers": [
       "rockstar",
@@ -987,7 +987,7 @@
   {
     "id": "puz_069",
     "pack_id": "pack_songs",
-    "emoji_clue": "👶🔙",
+    "emoji_clue": "👶🔙🫲🎤💔",
     "canonical_answer": "Baby Come Back",
     "accepted_answers": [
       "baby come back"
@@ -1001,7 +1001,7 @@
   {
     "id": "puz_070",
     "pack_id": "pack_songs",
-    "emoji_clue": "🌧️💜",
+    "emoji_clue": "💜🌧️☔🎸🎤",
     "canonical_answer": "Purple Rain",
     "accepted_answers": [
       "purple rain"
@@ -1015,7 +1015,7 @@
   {
     "id": "puz_071",
     "pack_id": "pack_songs",
-    "emoji_clue": "🔥💃",
+    "emoji_clue": "💃🔥🕺🎵🔥",
     "canonical_answer": "Dance on Fire",
     "accepted_answers": [
       "dance on fire"
@@ -1029,7 +1029,7 @@
   {
     "id": "puz_072",
     "pack_id": "pack_songs",
-    "emoji_clue": "💔🎵",
+    "emoji_clue": "💔🏨🎤😢🛏️",
     "canonical_answer": "Heartbreak Hotel",
     "accepted_answers": [
       "heartbreak hotel"
@@ -1043,7 +1043,7 @@
   {
     "id": "puz_073",
     "pack_id": "pack_songs",
-    "emoji_clue": "🌊🔥",
+    "emoji_clue": "💧🌊🔥🔥⚔️",
     "canonical_answer": "Water and Fire",
     "accepted_answers": [
       "water and fire"
@@ -1057,7 +1057,7 @@
   {
     "id": "puz_074",
     "pack_id": "pack_songs",
-    "emoji_clue": "🚀👨",
+    "emoji_clue": "🚀👨🌙⭐🎹",
     "canonical_answer": "Rocket Man",
     "accepted_answers": [
       "rocket man"
@@ -1071,7 +1071,7 @@
   {
     "id": "puz_075",
     "pack_id": "pack_songs",
-    "emoji_clue": "🍓🏠",
+    "emoji_clue": "🍓🍓🌾🏡🎵",
     "canonical_answer": "Strawberry Fields",
     "accepted_answers": [
       "strawberry fields",
@@ -1086,7 +1086,7 @@
   {
     "id": "puz_076",
     "pack_id": "pack_songs",
-    "emoji_clue": "🌃🌙",
+    "emoji_clue": "🌃🌙⏰🕛🌟",
     "canonical_answer": "Midnight",
     "accepted_answers": [
       "midnight"
@@ -1100,7 +1100,7 @@
   {
     "id": "puz_077",
     "pack_id": "pack_songs",
-    "emoji_clue": "⚡🔨",
+    "emoji_clue": "⚡🔨🎸🌩️💥",
     "canonical_answer": "Thunderstruck",
     "accepted_answers": [
       "thunderstruck"
@@ -1114,7 +1114,7 @@
   {
     "id": "puz_078",
     "pack_id": "pack_songs",
-    "emoji_clue": "👑👸",
+    "emoji_clue": "👑👸🎤🎸🤘",
     "canonical_answer": "Queen",
     "accepted_answers": [
       "queen"
@@ -1128,7 +1128,7 @@
   {
     "id": "puz_079",
     "pack_id": "pack_songs",
-    "emoji_clue": "🐝🐝",
+    "emoji_clue": "🐝🐝🍯🫙💛",
     "canonical_answer": "Honey",
     "accepted_answers": [
       "honey"
@@ -1142,7 +1142,7 @@
   {
     "id": "puz_080",
     "pack_id": "pack_songs",
-    "emoji_clue": "📻👤",
+    "emoji_clue": "📻📡👤🎵🎸",
     "canonical_answer": "Radiohead",
     "accepted_answers": [
       "radiohead",
@@ -1157,7 +1157,7 @@
   {
     "id": "puz_081",
     "pack_id": "pack_songs",
-    "emoji_clue": "🧊🧊👶",
+    "emoji_clue": "🧊🧊👶🎤❄️",
     "canonical_answer": "Ice Ice Baby",
     "accepted_answers": [
       "ice ice baby"
@@ -1171,7 +1171,7 @@
   {
     "id": "puz_082",
     "pack_id": "pack_songs",
-    "emoji_clue": "💜🌧️",
+    "emoji_clue": "💜🌫️😵🎸🌀",
     "canonical_answer": "Purple Haze",
     "accepted_answers": [
       "purple haze"
@@ -1185,7 +1185,7 @@
   {
     "id": "puz_083",
     "pack_id": "pack_songs",
-    "emoji_clue": "🌙🕺",
+    "emoji_clue": "🌙🕺💃🌟🎵",
     "canonical_answer": "Dancing in the Moonlight",
     "accepted_answers": [
       "dancing in the moonlight"
@@ -1199,7 +1199,7 @@
   {
     "id": "puz_084",
     "pack_id": "pack_songs",
-    "emoji_clue": "🏃💨🌬️",
+    "emoji_clue": "🏃💨🌬️👟🏃‍♀️",
     "canonical_answer": "Run",
     "accepted_answers": [
       "run"
@@ -1213,7 +1213,7 @@
   {
     "id": "puz_085",
     "pack_id": "pack_songs",
-    "emoji_clue": "🍀🌈",
+    "emoji_clue": "🌈🏃‍♂️🔚🪙💰🍀✨",
     "canonical_answer": "Gold at the End of the Rainbow",
     "accepted_answers": [
       "gold at the end of the rainbow",
@@ -1228,7 +1228,7 @@
   {
     "id": "puz_086",
     "pack_id": "pack_songs",
-    "emoji_clue": "🔔✝️",
+    "emoji_clue": "😈🔥🔔🔔⛓️🎸",
     "canonical_answer": "Hells Bells",
     "accepted_answers": [
       "hells bells"
@@ -1242,7 +1242,7 @@
   {
     "id": "puz_087",
     "pack_id": "pack_songs",
-    "emoji_clue": "👗🧊",
+    "emoji_clue": "❄️🧊👗🥶👠🌬️",
     "canonical_answer": "Cold Dress",
     "accepted_answers": [
       "cold dress"
@@ -1256,7 +1256,7 @@
   {
     "id": "puz_088",
     "pack_id": "pack_songs",
-    "emoji_clue": "🏔️🎺",
+    "emoji_clue": "🏔️🪨⬆️🌲🦅🎸",
     "canonical_answer": "Rocky Mountain High",
     "accepted_answers": [
       "rocky mountain high"
@@ -1270,7 +1270,7 @@
   {
     "id": "puz_089",
     "pack_id": "pack_songs",
-    "emoji_clue": "🖤🐦",
+    "emoji_clue": "⬛🐦🌙🎸✈️🌅",
     "canonical_answer": "Blackbird",
     "accepted_answers": [
       "blackbird"
@@ -1284,7 +1284,7 @@
   {
     "id": "puz_090",
     "pack_id": "pack_songs",
-    "emoji_clue": "🌊💎",
+    "emoji_clue": "🌊👁️👁️🔵💧😢",
     "canonical_answer": "Ocean Eyes",
     "accepted_answers": [
       "ocean eyes"
@@ -1298,7 +1298,7 @@
   {
     "id": "puz_091",
     "pack_id": "pack_songs",
-    "emoji_clue": "🪜🌤️",
+    "emoji_clue": "🪜🪜☁️😇✝️🎸",
     "canonical_answer": "Stairway to Heaven",
     "accepted_answers": [
       "stairway to heaven"
@@ -1312,7 +1312,7 @@
   {
     "id": "puz_092",
     "pack_id": "pack_songs",
-    "emoji_clue": "🐕📅",
+    "emoji_clue": "🐕☀️📅🌡️😓🏖️",
     "canonical_answer": "Dog Days",
     "accepted_answers": [
       "dog days",
@@ -1327,7 +1327,7 @@
   {
     "id": "puz_093",
     "pack_id": "pack_songs",
-    "emoji_clue": "🎩🧙",
+    "emoji_clue": "⬛✨🪄👩🔮🎸",
     "canonical_answer": "Black Magic Woman",
     "accepted_answers": [
       "black magic woman"
@@ -1341,7 +1341,7 @@
   {
     "id": "puz_094",
     "pack_id": "pack_songs",
-    "emoji_clue": "🌸🔫",
+    "emoji_clue": "🔫🔫🌹🌹🎤🤘🎸",
     "canonical_answer": "Guns and Roses",
     "accepted_answers": [
       "guns and roses",
@@ -1356,7 +1356,7 @@
   {
     "id": "puz_095",
     "pack_id": "pack_songs",
-    "emoji_clue": "🌊🔔",
+    "emoji_clue": "🔔🔔❓👤☠️🎸⏰",
     "canonical_answer": "For Whom the Bell Tolls",
     "accepted_answers": [
       "for whom the bell tolls"
@@ -1370,7 +1370,7 @@
   {
     "id": "puz_096",
     "pack_id": "pack_songs",
-    "emoji_clue": "🦅🏨",
+    "emoji_clue": "🏨🌴☀️🦅🎸🌃",
     "canonical_answer": "Hotel California",
     "accepted_answers": [
       "hotel california"
@@ -1384,7 +1384,7 @@
   {
     "id": "puz_097",
     "pack_id": "pack_songs",
-    "emoji_clue": "🐝🌀",
+    "emoji_clue": "✈️🦋☁️🌀🎸🕊️",
     "canonical_answer": "Fly Away",
     "accepted_answers": [
       "fly away"
@@ -1398,7 +1398,7 @@
   {
     "id": "puz_098",
     "pack_id": "pack_songs",
-    "emoji_clue": "🎪👻",
+    "emoji_clue": "🎪🤡👻💀🎭🌙",
     "canonical_answer": "Circus of the Dead",
     "accepted_answers": [
       "circus of the dead"
@@ -1412,7 +1412,7 @@
   {
     "id": "puz_099",
     "pack_id": "pack_songs",
-    "emoji_clue": "🧊☕",
+    "emoji_clue": "❄️🧊☕🫗🥶😌",
     "canonical_answer": "Cold Brew",
     "accepted_answers": [
       "cold brew"
@@ -1426,7 +1426,7 @@
   {
     "id": "puz_100",
     "pack_id": "pack_songs",
-    "emoji_clue": "🔥🚗",
+    "emoji_clue": "🛣️🏎️🔥😈⬇️🎸",
     "canonical_answer": "Highway to Hell",
     "accepted_answers": [
       "highway to hell"
@@ -1691,7 +1691,7 @@
   {
     "id": "puz_118",
     "pack_id": "pack_food",
-    "emoji_clue": "🥤🎂",
+    "emoji_clue": "🥤☕🎂🍰🎀",
     "canonical_answer": "Cupcake",
     "accepted_answers": [
       "cupcake",
@@ -1707,7 +1707,7 @@
   {
     "id": "puz_119",
     "pack_id": "pack_food",
-    "emoji_clue": "🌲🍎",
+    "emoji_clue": "🌲🍎🟡🍋🌿",
     "canonical_answer": "Pineapple",
     "accepted_answers": [
       "pineapple"
@@ -1721,7 +1721,7 @@
   {
     "id": "puz_120",
     "pack_id": "pack_food",
-    "emoji_clue": "🧈🌾",
+    "emoji_clue": "🧈🥃🍬🟫🍯",
     "canonical_answer": "Butterscotch",
     "accepted_answers": [
       "butterscotch",
@@ -1736,7 +1736,7 @@
   {
     "id": "puz_121",
     "pack_id": "pack_food",
-    "emoji_clue": "🍊🐔",
+    "emoji_clue": "🍊🐔🍗🥘🍚",
     "canonical_answer": "Orange Chicken",
     "accepted_answers": [
       "orange chicken"
@@ -1750,7 +1750,7 @@
   {
     "id": "puz_122",
     "pack_id": "pack_food",
-    "emoji_clue": "🥛🧋",
+    "emoji_clue": "🥛🫗🧋🍦🥤",
     "canonical_answer": "Milkshake",
     "accepted_answers": [
       "milkshake",
@@ -1765,7 +1765,7 @@
   {
     "id": "puz_123",
     "pack_id": "pack_food",
-    "emoji_clue": "🍣🌊",
+    "emoji_clue": "🍣🌀🍚🐟🥢",
     "canonical_answer": "Sushi Roll",
     "accepted_answers": [
       "sushi roll",
@@ -1780,7 +1780,7 @@
   {
     "id": "puz_124",
     "pack_id": "pack_food",
-    "emoji_clue": "🌽🍞",
+    "emoji_clue": "🌽🍞🧈🟡🫓",
     "canonical_answer": "Cornbread",
     "accepted_answers": [
       "cornbread",
@@ -1795,7 +1795,7 @@
   {
     "id": "puz_125",
     "pack_id": "pack_food",
-    "emoji_clue": "🥝🍦",
+    "emoji_clue": "🥝🍦❄️🟢🍨",
     "canonical_answer": "Kiwi Sorbet",
     "accepted_answers": [
       "kiwi sorbet",
@@ -1810,7 +1810,7 @@
   {
     "id": "puz_126",
     "pack_id": "pack_food",
-    "emoji_clue": "🔥🥜",
+    "emoji_clue": "🔥🥜🫘🧂🏕️",
     "canonical_answer": "Roasted Peanuts",
     "accepted_answers": [
       "roasted peanuts",
@@ -1825,7 +1825,7 @@
   {
     "id": "puz_127",
     "pack_id": "pack_food",
-    "emoji_clue": "🧀🍟",
+    "emoji_clue": "🧀🍟🟡🥔🫕",
     "canonical_answer": "Cheese Fries",
     "accepted_answers": [
       "cheese fries",
@@ -1840,7 +1840,7 @@
   {
     "id": "puz_128",
     "pack_id": "pack_food",
-    "emoji_clue": "🌿🍵",
+    "emoji_clue": "🌿🍵🟢☕🫖",
     "canonical_answer": "Green Tea",
     "accepted_answers": [
       "green tea"
@@ -1854,7 +1854,7 @@
   {
     "id": "puz_129",
     "pack_id": "pack_food",
-    "emoji_clue": "🐟🌮",
+    "emoji_clue": "🐟🌮🥬🍋🌶️",
     "canonical_answer": "Fish Taco",
     "accepted_answers": [
       "fish taco",
@@ -1869,7 +1869,7 @@
   {
     "id": "puz_130",
     "pack_id": "pack_food",
-    "emoji_clue": "🍫🌊",
+    "emoji_clue": "🍫⛲🟤🫕🍓",
     "canonical_answer": "Chocolate Fountain",
     "accepted_answers": [
       "chocolate fountain"
@@ -1883,7 +1883,7 @@
   {
     "id": "puz_131",
     "pack_id": "pack_food",
-    "emoji_clue": "🥩🍖",
+    "emoji_clue": "🥩🍖🔥🧂🍽️",
     "canonical_answer": "Steak and Ribs",
     "accepted_answers": [
       "steak and ribs",
@@ -1898,7 +1898,7 @@
   {
     "id": "puz_132",
     "pack_id": "pack_food",
-    "emoji_clue": "☕🎂",
+    "emoji_clue": "☕🎂🍰🧈🟤",
     "canonical_answer": "Coffee Cake",
     "accepted_answers": [
       "coffee cake"
@@ -1912,7 +1912,7 @@
   {
     "id": "puz_133",
     "pack_id": "pack_food",
-    "emoji_clue": "🍦🧇",
+    "emoji_clue": "🧇🍦🔺🍨🫙",
     "canonical_answer": "Waffle Cone",
     "accepted_answers": [
       "waffle cone"
@@ -1926,7 +1926,7 @@
   {
     "id": "puz_134",
     "pack_id": "pack_food",
-    "emoji_clue": "🫐🥞",
+    "emoji_clue": "🫐🥞🍳🧈🍯",
     "canonical_answer": "Blueberry Pancakes",
     "accepted_answers": [
       "blueberry pancakes",
@@ -1941,7 +1941,7 @@
   {
     "id": "puz_135",
     "pack_id": "pack_food",
-    "emoji_clue": "🐝🧈🧅",
+    "emoji_clue": "🐝🍯🧈🧅🌿🥖🟡",
     "canonical_answer": "Honey Butter Onion",
     "accepted_answers": [
       "honey butter onion"
@@ -1955,7 +1955,7 @@
   {
     "id": "puz_136",
     "pack_id": "pack_food",
-    "emoji_clue": "🌶️🍫",
+    "emoji_clue": "🌶️🍫🔥🟤🍬🧊",
     "canonical_answer": "Chili Chocolate",
     "accepted_answers": [
       "chili chocolate",
@@ -1970,7 +1970,7 @@
   {
     "id": "puz_137",
     "pack_id": "pack_food",
-    "emoji_clue": "🦞🍜",
+    "emoji_clue": "🦞🍜🥣🧅🫕🌿",
     "canonical_answer": "Lobster Bisque",
     "accepted_answers": [
       "lobster bisque"
@@ -1984,7 +1984,7 @@
   {
     "id": "puz_138",
     "pack_id": "pack_food",
-    "emoji_clue": "🌰🍞",
+    "emoji_clue": "🌰🍞🧈🟤🌲🫓",
     "canonical_answer": "Chestnut Bread",
     "accepted_answers": [
       "chestnut bread"
@@ -1998,7 +1998,7 @@
   {
     "id": "puz_139",
     "pack_id": "pack_food",
-    "emoji_clue": "🍳🏃",
+    "emoji_clue": "🍳🥚🧈🍞🥓🧑‍🍳",
     "canonical_answer": "Eggs Benedict",
     "accepted_answers": [
       "eggs benedict"
@@ -2012,7 +2012,7 @@
   {
     "id": "puz_140",
     "pack_id": "pack_food",
-    "emoji_clue": "🥑🍞",
+    "emoji_clue": "🥑🍞🧂🌿🍳🥚",
     "canonical_answer": "Avocado Toast",
     "accepted_answers": [
       "avocado toast"
@@ -2026,7 +2026,7 @@
   {
     "id": "puz_141",
     "pack_id": "pack_food",
-    "emoji_clue": "🧄🍞",
+    "emoji_clue": "🧄🍞🧈🔥🌿🧀",
     "canonical_answer": "Garlic Bread",
     "accepted_answers": [
       "garlic bread"
@@ -2040,7 +2040,7 @@
   {
     "id": "puz_142",
     "pack_id": "pack_food",
-    "emoji_clue": "🍋💧",
+    "emoji_clue": "🍋💧🧊🫗🥤🌞",
     "canonical_answer": "Lemonade",
     "accepted_answers": [
       "lemonade"
@@ -2054,7 +2054,7 @@
   {
     "id": "puz_143",
     "pack_id": "pack_food",
-    "emoji_clue": "🫘🌶️",
+    "emoji_clue": "🌶️🥩🫘🧅🌿🍅",
     "canonical_answer": "Chili Con Carne",
     "accepted_answers": [
       "chili con carne",
@@ -2069,7 +2069,7 @@
   {
     "id": "puz_144",
     "pack_id": "pack_food",
-    "emoji_clue": "🦐🍝",
+    "emoji_clue": "🦐🍝🧄🧈🌿🍽️",
     "canonical_answer": "Shrimp Pasta",
     "accepted_answers": [
       "shrimp pasta",
@@ -2084,7 +2084,7 @@
   {
     "id": "puz_145",
     "pack_id": "pack_food",
-    "emoji_clue": "🍵🧊",
+    "emoji_clue": "🧊🍵🟢🥛🫗🧋",
     "canonical_answer": "Iced Matcha",
     "accepted_answers": [
       "iced matcha",
@@ -2099,7 +2099,7 @@
   {
     "id": "puz_146",
     "pack_id": "pack_food",
-    "emoji_clue": "🫔🧀",
+    "emoji_clue": "🫔🧀🌶️🫓🔥🥑",
     "canonical_answer": "Quesadilla",
     "accepted_answers": [
       "quesadilla"
@@ -2113,7 +2113,7 @@
   {
     "id": "puz_147",
     "pack_id": "pack_food",
-    "emoji_clue": "🥐☕",
+    "emoji_clue": "🥐☕🧈🫗🇫🇷🌅",
     "canonical_answer": "Croissant and Coffee",
     "accepted_answers": [
       "croissant and coffee",
@@ -2128,7 +2128,7 @@
   {
     "id": "puz_148",
     "pack_id": "pack_food",
-    "emoji_clue": "🍄🍕",
+    "emoji_clue": "🍄🍕🧀🌿🔥🍽️",
     "canonical_answer": "Mushroom Pizza",
     "accepted_answers": [
       "mushroom pizza"
@@ -2142,7 +2142,7 @@
   {
     "id": "puz_149",
     "pack_id": "pack_food",
-    "emoji_clue": "🧈🐔",
+    "emoji_clue": "🧈🐔🍛🌶️🧅🍚",
     "canonical_answer": "Butter Chicken",
     "accepted_answers": [
       "butter chicken"
@@ -2156,7 +2156,7 @@
   {
     "id": "puz_150",
     "pack_id": "pack_food",
-    "emoji_clue": "🍋🥧",
+    "emoji_clue": "🍋🥧🍰☁️🍳🟡",
     "canonical_answer": "Lemon Meringue Pie",
     "accepted_answers": [
       "lemon meringue pie",
@@ -2421,7 +2421,7 @@
   {
     "id": "puz_168",
     "pack_id": "pack_animals",
-    "emoji_clue": "🧈🪰",
+    "emoji_clue": "🧈🪰🌸🌈🌿",
     "canonical_answer": "Butterfly",
     "accepted_answers": [
       "butterfly",
@@ -2436,7 +2436,7 @@
   {
     "id": "puz_169",
     "pack_id": "pack_animals",
-    "emoji_clue": "🌊🐴",
+    "emoji_clue": "🌊🐴🐠🌿🏊",
     "canonical_answer": "Seahorse",
     "accepted_answers": [
       "seahorse",
@@ -2451,7 +2451,7 @@
   {
     "id": "puz_170",
     "pack_id": "pack_animals",
-    "emoji_clue": "🐝🐦",
+    "emoji_clue": "🎵🐝🐦🌺🌿",
     "canonical_answer": "Hummingbird",
     "accepted_answers": [
       "hummingbird",
@@ -2466,7 +2466,7 @@
   {
     "id": "puz_171",
     "pack_id": "pack_animals",
-    "emoji_clue": "🐜🍽️",
+    "emoji_clue": "🐜🍽️👅🐾🌿",
     "canonical_answer": "Anteater",
     "accepted_answers": [
       "anteater",
@@ -2481,7 +2481,7 @@
   {
     "id": "puz_172",
     "pack_id": "pack_animals",
-    "emoji_clue": "🦔🐷",
+    "emoji_clue": "🌿🪴🐷🐾🪵",
     "canonical_answer": "Hedgehog",
     "accepted_answers": [
       "hedgehog",
@@ -2496,7 +2496,7 @@
   {
     "id": "puz_173",
     "pack_id": "pack_animals",
-    "emoji_clue": "🐊🌊",
+    "emoji_clue": "🧂🌊🐊🦷🏝️",
     "canonical_answer": "Saltwater Crocodile",
     "accepted_answers": [
       "saltwater crocodile",
@@ -2511,7 +2511,7 @@
   {
     "id": "puz_174",
     "pack_id": "pack_animals",
-    "emoji_clue": "🐄🐦",
+    "emoji_clue": "🐄🐦🌾🥚🪶",
     "canonical_answer": "Cowbird",
     "accepted_answers": [
       "cowbird",
@@ -2526,7 +2526,7 @@
   {
     "id": "puz_175",
     "pack_id": "pack_animals",
-    "emoji_clue": "🪼🐟",
+    "emoji_clue": "🫙🐟🌊💜⚡",
     "canonical_answer": "Jellyfish",
     "accepted_answers": [
       "jellyfish",
@@ -2541,7 +2541,7 @@
   {
     "id": "puz_176",
     "pack_id": "pack_animals",
-    "emoji_clue": "👻🐟",
+    "emoji_clue": "👻🐟🌊🫧💀",
     "canonical_answer": "Ghost Fish",
     "accepted_answers": [
       "ghost fish",
@@ -2556,7 +2556,7 @@
   {
     "id": "puz_177",
     "pack_id": "pack_animals",
-    "emoji_clue": "⚡🐛",
+    "emoji_clue": "⚡🐛💡🌙🌿",
     "canonical_answer": "Lightning Bug",
     "accepted_answers": [
       "lightning bug"
@@ -2570,7 +2570,7 @@
   {
     "id": "puz_178",
     "pack_id": "pack_animals",
-    "emoji_clue": "🐿️🐒",
+    "emoji_clue": "🕷️🐒🌴🌿🦿",
     "canonical_answer": "Spider Monkey",
     "accepted_answers": [
       "spider monkey"
@@ -2584,7 +2584,7 @@
   {
     "id": "puz_179",
     "pack_id": "pack_animals",
-    "emoji_clue": "🌈🐍",
+    "emoji_clue": "🌈🐍🌴🌿🪵",
     "canonical_answer": "Rainbow Boa",
     "accepted_answers": [
       "rainbow boa"
@@ -2598,7 +2598,7 @@
   {
     "id": "puz_180",
     "pack_id": "pack_animals",
-    "emoji_clue": "🦅🦉",
+    "emoji_clue": "🦉🦅🌙🏔️🪶",
     "canonical_answer": "Owl Eagle",
     "accepted_answers": [
       "owl eagle",
@@ -2613,7 +2613,7 @@
   {
     "id": "puz_181",
     "pack_id": "pack_animals",
-    "emoji_clue": "🐦‍🔥⭐",
+    "emoji_clue": "🔥🐦☀️🌅🪶",
     "canonical_answer": "Firebird",
     "accepted_answers": [
       "firebird",
@@ -2628,7 +2628,7 @@
   {
     "id": "puz_182",
     "pack_id": "pack_animals",
-    "emoji_clue": "🦊🦊",
+    "emoji_clue": "❄️🦊🏔️🌨️🐾",
     "canonical_answer": "Arctic Fox",
     "accepted_answers": [
       "arctic fox"
@@ -2642,7 +2642,7 @@
   {
     "id": "puz_183",
     "pack_id": "pack_animals",
-    "emoji_clue": "🐍👶",
+    "emoji_clue": "👶🐍🥚🌿🐾",
     "canonical_answer": "Baby Snake",
     "accepted_answers": [
       "baby snake",
@@ -2657,7 +2657,7 @@
   {
     "id": "puz_184",
     "pack_id": "pack_animals",
-    "emoji_clue": "🦞🐕",
+    "emoji_clue": "🦞🐕🌊🐾🦴",
     "canonical_answer": "Lobster Dog",
     "accepted_answers": [
       "lobster dog"
@@ -2671,7 +2671,7 @@
   {
     "id": "puz_185",
     "pack_id": "pack_animals",
-    "emoji_clue": "🐂🐸",
+    "emoji_clue": "🐂🐸💧🌿🪷🌙",
     "canonical_answer": "Bullfrog",
     "accepted_answers": [
       "bullfrog",
@@ -2686,7 +2686,7 @@
   {
     "id": "puz_186",
     "pack_id": "pack_animals",
-    "emoji_clue": "🦎🐊",
+    "emoji_clue": "🖥️🦎☀️🏜️🐾🌿",
     "canonical_answer": "Monitor Lizard",
     "accepted_answers": [
       "monitor lizard"
@@ -2700,7 +2700,7 @@
   {
     "id": "puz_187",
     "pack_id": "pack_animals",
-    "emoji_clue": "🐦👑",
+    "emoji_clue": "👑🐟🐦🌊🪶💎",
     "canonical_answer": "Kingfisher",
     "accepted_answers": [
       "kingfisher",
@@ -2715,7 +2715,7 @@
   {
     "id": "puz_188",
     "pack_id": "pack_animals",
-    "emoji_clue": "🦂🐟",
+    "emoji_clue": "🦂🐟🌊🪸🏝️⚠️",
     "canonical_answer": "Scorpionfish",
     "accepted_answers": [
       "scorpionfish",
@@ -2730,7 +2730,7 @@
   {
     "id": "puz_189",
     "pack_id": "pack_animals",
-    "emoji_clue": "🐸🐟",
+    "emoji_clue": "🐸🐟🌊🪸🐾🎣",
     "canonical_answer": "Frogfish",
     "accepted_answers": [
       "frogfish",
@@ -2745,7 +2745,7 @@
   {
     "id": "puz_190",
     "pack_id": "pack_animals",
-    "emoji_clue": "🔨👤🦈",
+    "emoji_clue": "🔨👤🦈🌊🦷🐾",
     "canonical_answer": "Hammerhead Shark",
     "accepted_answers": [
       "hammerhead shark",
@@ -2760,7 +2760,7 @@
   {
     "id": "puz_191",
     "pack_id": "pack_animals",
-    "emoji_clue": "🦔🐛",
+    "emoji_clue": "🧶🐻🐛🌿🪵🏔️",
     "canonical_answer": "Woolly Bear",
     "accepted_answers": [
       "woolly bear",
@@ -2775,7 +2775,7 @@
   {
     "id": "puz_192",
     "pack_id": "pack_animals",
-    "emoji_clue": "👃🐻",
+    "emoji_clue": "👃🐻🌴🐾🌿🍃",
     "canonical_answer": "Nosebear",
     "accepted_answers": [
       "coati",
@@ -2791,7 +2791,7 @@
   {
     "id": "puz_193",
     "pack_id": "pack_animals",
-    "emoji_clue": "🐉🪰",
+    "emoji_clue": "🐉🪰💧🌿☀️🌈",
     "canonical_answer": "Dragonfly",
     "accepted_answers": [
       "dragonfly",
@@ -2806,7 +2806,7 @@
   {
     "id": "puz_194",
     "pack_id": "pack_animals",
-    "emoji_clue": "🐋🦈",
+    "emoji_clue": "🐋🦈🌊🐟🏊🐾",
     "canonical_answer": "Whale Shark",
     "accepted_answers": [
       "whale shark"
@@ -2820,7 +2820,7 @@
   {
     "id": "puz_195",
     "pack_id": "pack_animals",
-    "emoji_clue": "👻🦐",
+    "emoji_clue": "👻🦐🌊💧🫧🏝️",
     "canonical_answer": "Ghost Shrimp",
     "accepted_answers": [
       "ghost shrimp"
@@ -2834,7 +2834,7 @@
   {
     "id": "puz_196",
     "pack_id": "pack_animals",
-    "emoji_clue": "🐺🦎",
+    "emoji_clue": "🏜️🦎👹☀️🐾⚠️",
     "canonical_answer": "Gila Monster",
     "accepted_answers": [
       "gila monster"
@@ -2848,7 +2848,7 @@
   {
     "id": "puz_197",
     "pack_id": "pack_animals",
-    "emoji_clue": "🪸🐍",
+    "emoji_clue": "🪸🐍🔴⬛🟡⚠️",
     "canonical_answer": "Coral Snake",
     "accepted_answers": [
       "coral snake"
@@ -2862,7 +2862,7 @@
   {
     "id": "puz_198",
     "pack_id": "pack_animals",
-    "emoji_clue": "🐝🐝👑",
+    "emoji_clue": "👑🐝🐝🍯🌻🏰",
     "canonical_answer": "Queen Bee",
     "accepted_answers": [
       "queen bee"
@@ -2876,7 +2876,7 @@
   {
     "id": "puz_199",
     "pack_id": "pack_animals",
-    "emoji_clue": "🐄🐟",
+    "emoji_clue": "🐄🐟🌊🐾🏝️🫧",
     "canonical_answer": "Cowfish",
     "accepted_answers": [
       "cowfish",
@@ -2891,7 +2891,7 @@
   {
     "id": "puz_200",
     "pack_id": "pack_animals",
-    "emoji_clue": "🦅🐍",
+    "emoji_clue": "📝🐦🦅🐍🏜️🦵",
     "canonical_answer": "Secretary Bird",
     "accepted_answers": [
       "secretary bird"
@@ -3150,7 +3150,7 @@
   {
     "id": "puz_218",
     "pack_id": "pack_places",
-    "emoji_clue": "🧊🌍",
+    "emoji_clue": "🧊❄️🌍🏝️🌋",
     "canonical_answer": "Iceland",
     "accepted_answers": [
       "iceland"
@@ -3164,7 +3164,7 @@
   {
     "id": "puz_219",
     "pack_id": "pack_places",
-    "emoji_clue": "🟡🪨",
+    "emoji_clue": "🟡🪨🌋💨🐻",
     "canonical_answer": "Yellowstone",
     "accepted_answers": [
       "yellowstone"
@@ -3178,7 +3178,7 @@
   {
     "id": "puz_220",
     "pack_id": "pack_places",
-    "emoji_clue": "⛰️🔝",
+    "emoji_clue": "⛰️🔝🏔️☁️🌅",
     "canonical_answer": "Mountaintop",
     "accepted_answers": [
       "mountaintop",
@@ -3193,7 +3193,7 @@
   {
     "id": "puz_221",
     "pack_id": "pack_places",
-    "emoji_clue": "🌴☀️🌊",
+    "emoji_clue": "🌴☀️🌊🏖️🏄",
     "canonical_answer": "Malibu",
     "accepted_answers": [
       "malibu"
@@ -3207,7 +3207,7 @@
   {
     "id": "puz_222",
     "pack_id": "pack_places",
-    "emoji_clue": "🏜️🌹",
+    "emoji_clue": "🏜️🌹☀️🌵🌸",
     "canonical_answer": "Desert Rose",
     "accepted_answers": [
       "desert rose"
@@ -3221,7 +3221,7 @@
   {
     "id": "puz_223",
     "pack_id": "pack_places",
-    "emoji_clue": "🌊🌉",
+    "emoji_clue": "🟡🌉🌊🌫️🌅",
     "canonical_answer": "Golden Gate",
     "accepted_answers": [
       "golden gate",
@@ -3236,7 +3236,7 @@
   {
     "id": "puz_224",
     "pack_id": "pack_places",
-    "emoji_clue": "🏔️💎",
+    "emoji_clue": "💎👤🏝️🌋🌊",
     "canonical_answer": "Diamond Head",
     "accepted_answers": [
       "diamond head"
@@ -3250,7 +3250,7 @@
   {
     "id": "puz_225",
     "pack_id": "pack_places",
-    "emoji_clue": "🗽🗽",
+    "emoji_clue": "🗽🏝️🌊🔥👑",
     "canonical_answer": "Statue of Liberty",
     "accepted_answers": [
       "statue of liberty"
@@ -3264,7 +3264,7 @@
   {
     "id": "puz_226",
     "pack_id": "pack_places",
-    "emoji_clue": "❄️🌍",
+    "emoji_clue": "❄️🌍🐧🧊🏔️",
     "canonical_answer": "Antarctica",
     "accepted_answers": [
       "antarctica"
@@ -3278,7 +3278,7 @@
   {
     "id": "puz_227",
     "pack_id": "pack_places",
-    "emoji_clue": "🌊🏰",
+    "emoji_clue": "🌊🏰🐚🧱🏝️",
     "canonical_answer": "Sea Castle",
     "accepted_answers": [
       "sandcastle",
@@ -3293,7 +3293,7 @@
   {
     "id": "puz_228",
     "pack_id": "pack_places",
-    "emoji_clue": "🌍🏞️",
+    "emoji_clue": "🌍🏞️🏜️🪨🌅",
     "canonical_answer": "Grand Canyon",
     "accepted_answers": [
       "grand canyon"
@@ -3307,7 +3307,7 @@
   {
     "id": "puz_229",
     "pack_id": "pack_places",
-    "emoji_clue": "🏔️🐐",
+    "emoji_clue": "🪨🏔️🏔️🌲🐐",
     "canonical_answer": "Rocky Mountains",
     "accepted_answers": [
       "rocky mountains",
@@ -3322,7 +3322,7 @@
   {
     "id": "puz_230",
     "pack_id": "pack_places",
-    "emoji_clue": "🌧️🌈🏞️",
+    "emoji_clue": "🌊💧🌈🏞️🇨🇦",
     "canonical_answer": "Niagara Falls",
     "accepted_answers": [
       "niagara falls"
@@ -3336,7 +3336,7 @@
   {
     "id": "puz_231",
     "pack_id": "pack_places",
-    "emoji_clue": "🏝️🌺",
+    "emoji_clue": "🏝️🌺🌴🌋🏄",
     "canonical_answer": "Hawaii",
     "accepted_answers": [
       "hawaii"
@@ -3350,7 +3350,7 @@
   {
     "id": "puz_232",
     "pack_id": "pack_places",
-    "emoji_clue": "🗼🥐",
+    "emoji_clue": "🗼🥐🇫🇷🎨☕",
     "canonical_answer": "Paris",
     "accepted_answers": [
       "paris"
@@ -3364,7 +3364,7 @@
   {
     "id": "puz_233",
     "pack_id": "pack_places",
-    "emoji_clue": "🎰🌵",
+    "emoji_clue": "🎰🌵💡🃏🌃",
     "canonical_answer": "Las Vegas",
     "accepted_answers": [
       "las vegas",
@@ -3379,7 +3379,7 @@
   {
     "id": "puz_234",
     "pack_id": "pack_places",
-    "emoji_clue": "🏯🌸",
+    "emoji_clue": "🏯🌸⛩️🍵🎎",
     "canonical_answer": "Kyoto",
     "accepted_answers": [
       "kyoto"
@@ -3393,7 +3393,7 @@
   {
     "id": "puz_235",
     "pack_id": "pack_places",
-    "emoji_clue": "🗿🏝️",
+    "emoji_clue": "🐣🏝️🗿🌊🪨🌺",
     "canonical_answer": "Easter Island",
     "accepted_answers": [
       "easter island"
@@ -3407,7 +3407,7 @@
   {
     "id": "puz_236",
     "pack_id": "pack_places",
-    "emoji_clue": "🌊🔺",
+    "emoji_clue": "🏝️🔺📐🌊✈️🚢",
     "canonical_answer": "Bermuda Triangle",
     "accepted_answers": [
       "bermuda triangle"
@@ -3421,7 +3421,7 @@
   {
     "id": "puz_237",
     "pack_id": "pack_places",
-    "emoji_clue": "🏔️🦁",
+    "emoji_clue": "🏔️🦁🌍❄️🌿☀️",
     "canonical_answer": "Mount Kilimanjaro",
     "accepted_answers": [
       "mount kilimanjaro",
@@ -3436,7 +3436,7 @@
   {
     "id": "puz_238",
     "pack_id": "pack_places",
-    "emoji_clue": "🏜️🐫",
+    "emoji_clue": "🏜️🐫☀️🌡️🏜️🌙",
     "canonical_answer": "Sahara",
     "accepted_answers": [
       "sahara",
@@ -3451,7 +3451,7 @@
   {
     "id": "puz_239",
     "pack_id": "pack_places",
-    "emoji_clue": "🧊🏔️",
+    "emoji_clue": "🏔️🧊❄️☁️🧗🏳️",
     "canonical_answer": "Mount Everest",
     "accepted_answers": [
       "mount everest",
@@ -3466,7 +3466,7 @@
   {
     "id": "puz_240",
     "pack_id": "pack_places",
-    "emoji_clue": "🌺🏝️🌴",
+    "emoji_clue": "🌺🏝️🌴🌊🏖️🐠",
     "canonical_answer": "Bora Bora",
     "accepted_answers": [
       "bora bora"
@@ -3480,7 +3480,7 @@
   {
     "id": "puz_241",
     "pack_id": "pack_places",
-    "emoji_clue": "🏰🧛",
+    "emoji_clue": "🏰🧛🌙🦇🏔️🌲",
     "canonical_answer": "Transylvania",
     "accepted_answers": [
       "transylvania"
@@ -3494,7 +3494,7 @@
   {
     "id": "puz_242",
     "pack_id": "pack_places",
-    "emoji_clue": "🌋🏛️",
+    "emoji_clue": "🌋🏛️🔥🏚️🪨💀",
     "canonical_answer": "Pompeii",
     "accepted_answers": [
       "pompeii"
@@ -3508,7 +3508,7 @@
   {
     "id": "puz_243",
     "pack_id": "pack_places",
-    "emoji_clue": "🐊🌿",
+    "emoji_clue": "🐊🌿🌊🌴🦩🏞️",
     "canonical_answer": "Everglades",
     "accepted_answers": [
       "everglades",
@@ -3523,7 +3523,7 @@
   {
     "id": "puz_244",
     "pack_id": "pack_places",
-    "emoji_clue": "🪨🏜️",
+    "emoji_clue": "💀🏜️☀️🌡️🪨🏔️",
     "canonical_answer": "Death Valley",
     "accepted_answers": [
       "death valley"
@@ -3537,7 +3537,7 @@
   {
     "id": "puz_245",
     "pack_id": "pack_places",
-    "emoji_clue": "🌊🧱",
+    "emoji_clue": "🌊🧱🪸🐠🐢🏝️",
     "canonical_answer": "Great Barrier Reef",
     "accepted_answers": [
       "great barrier reef"
@@ -3551,7 +3551,7 @@
   {
     "id": "puz_246",
     "pack_id": "pack_places",
-    "emoji_clue": "🌲🐺",
+    "emoji_clue": "⬛🌲🌲🏔️🌫️🍫",
     "canonical_answer": "Black Forest",
     "accepted_answers": [
       "black forest"
@@ -3565,7 +3565,7 @@
   {
     "id": "puz_247",
     "pack_id": "pack_places",
-    "emoji_clue": "🏔️🌫️",
+    "emoji_clue": "🏔️🌫️🏛️🪨🌿☀️",
     "canonical_answer": "Machu Picchu",
     "accepted_answers": [
       "machu picchu"
@@ -3579,7 +3579,7 @@
   {
     "id": "puz_248",
     "pack_id": "pack_places",
-    "emoji_clue": "🌊🐉",
+    "emoji_clue": "🌊🐉🏔️🌫️👀🏴",
     "canonical_answer": "Loch Ness",
     "accepted_answers": [
       "loch ness"
@@ -3593,7 +3593,7 @@
   {
     "id": "puz_249",
     "pack_id": "pack_places",
-    "emoji_clue": "🏰👸",
+    "emoji_clue": "🏰👸💂🇬🇧👑🎭",
     "canonical_answer": "Buckingham Palace",
     "accepted_answers": [
       "buckingham palace"
@@ -3607,7 +3607,7 @@
   {
     "id": "puz_250",
     "pack_id": "pack_places",
-    "emoji_clue": "🌍🧱",
+    "emoji_clue": "🧱🧱🏔️🐉🇨🇳🌍",
     "canonical_answer": "Great Wall of China",
     "accepted_answers": [
       "great wall of china",
@@ -3866,7 +3866,7 @@
   {
     "id": "puz_268",
     "pack_id": "pack_sports",
-    "emoji_clue": "🏠🏃",
+    "emoji_clue": "🏠🏃⚾💨🎉",
     "canonical_answer": "Home Run",
     "accepted_answers": [
       "home run",
@@ -3881,7 +3881,7 @@
   {
     "id": "puz_269",
     "pack_id": "pack_sports",
-    "emoji_clue": "🏄🪵",
+    "emoji_clue": "🏄🪵🌊☀️🏖️",
     "canonical_answer": "Surfboard",
     "accepted_answers": [
       "surfboard",
@@ -3896,7 +3896,7 @@
   {
     "id": "puz_270",
     "pack_id": "pack_sports",
-    "emoji_clue": "🤺⚔️",
+    "emoji_clue": "🤺⚔️🥇🎭🏟️",
     "canonical_answer": "Fencing",
     "accepted_answers": [
       "fencing"
@@ -3910,7 +3910,7 @@
   {
     "id": "puz_271",
     "pack_id": "pack_sports",
-    "emoji_clue": "🎳🎳",
+    "emoji_clue": "🎳🎳🪧🏆🎉",
     "canonical_answer": "Bowling",
     "accepted_answers": [
       "bowling"
@@ -3924,7 +3924,7 @@
   {
     "id": "puz_272",
     "pack_id": "pack_sports",
-    "emoji_clue": "🏒🧊",
+    "emoji_clue": "🧊🏒🥅❄️🏟️",
     "canonical_answer": "Ice Hockey",
     "accepted_answers": [
       "ice hockey",
@@ -3939,7 +3939,7 @@
   {
     "id": "puz_273",
     "pack_id": "pack_sports",
-    "emoji_clue": "🏋️💪",
+    "emoji_clue": "🏋️💪🥇🏟️⬆️",
     "canonical_answer": "Weightlifting",
     "accepted_answers": [
       "weightlifting",
@@ -3954,7 +3954,7 @@
   {
     "id": "puz_274",
     "pack_id": "pack_sports",
-    "emoji_clue": "🤼🤼",
+    "emoji_clue": "🤼🤼💪🥇🏟️",
     "canonical_answer": "Wrestling",
     "accepted_answers": [
       "wrestling"
@@ -3968,7 +3968,7 @@
   {
     "id": "puz_275",
     "pack_id": "pack_sports",
-    "emoji_clue": "🛶🌊",
+    "emoji_clue": "⬜🌊🛶🏔️💨",
     "canonical_answer": "White Water Rafting",
     "accepted_answers": [
       "white water rafting",
@@ -3983,7 +3983,7 @@
   {
     "id": "puz_276",
     "pack_id": "pack_sports",
-    "emoji_clue": "🏂❄️",
+    "emoji_clue": "🏂❄️🏔️⬇️💨",
     "canonical_answer": "Snowboarding",
     "accepted_answers": [
       "snowboarding",
@@ -3998,7 +3998,7 @@
   {
     "id": "puz_277",
     "pack_id": "pack_sports",
-    "emoji_clue": "🥏🐕",
+    "emoji_clue": "🥏⛳🌿🏞️🏆",
     "canonical_answer": "Disc Golf",
     "accepted_answers": [
       "disc golf",
@@ -4013,7 +4013,7 @@
   {
     "id": "puz_278",
     "pack_id": "pack_sports",
-    "emoji_clue": "🏊🚴🏃",
+    "emoji_clue": "🏊🚴🏃🥇💨",
     "canonical_answer": "Triathlon",
     "accepted_answers": [
       "triathlon"
@@ -4027,7 +4027,7 @@
   {
     "id": "puz_279",
     "pack_id": "pack_sports",
-    "emoji_clue": "🧗🏔️",
+    "emoji_clue": "🧗🪨🏔️🧗‍♀️🪢",
     "canonical_answer": "Rock Climbing",
     "accepted_answers": [
       "rock climbing",
@@ -4042,7 +4042,7 @@
   {
     "id": "puz_280",
     "pack_id": "pack_sports",
-    "emoji_clue": "🏓🏓",
+    "emoji_clue": "🏓🏓⚡🏆🎾",
     "canonical_answer": "Ping Pong",
     "accepted_answers": [
       "ping pong",
@@ -4057,7 +4057,7 @@
   {
     "id": "puz_281",
     "pack_id": "pack_sports",
-    "emoji_clue": "🤾🥅",
+    "emoji_clue": "🤾🥅⚽🏆🏟️",
     "canonical_answer": "Handball Goal",
     "accepted_answers": [
       "handball goal"
@@ -4071,7 +4071,7 @@
   {
     "id": "puz_282",
     "pack_id": "pack_sports",
-    "emoji_clue": "🚣‍♂️🏅",
+    "emoji_clue": "🚣‍♂️🏅🌊🛶💪",
     "canonical_answer": "Rowing",
     "accepted_answers": [
       "rowing"
@@ -4085,7 +4085,7 @@
   {
     "id": "puz_283",
     "pack_id": "pack_sports",
-    "emoji_clue": "🏋️🥇",
+    "emoji_clue": "🏋️🥇💪⬆️🏟️",
     "canonical_answer": "Powerlifting",
     "accepted_answers": [
       "powerlifting",
@@ -4100,7 +4100,7 @@
   {
     "id": "puz_284",
     "pack_id": "pack_sports",
-    "emoji_clue": "🐴🤸",
+    "emoji_clue": "🐴🤸🏇🏅🏟️",
     "canonical_answer": "Equestrian",
     "accepted_answers": [
       "equestrian",
@@ -4115,7 +4115,7 @@
   {
     "id": "puz_285",
     "pack_id": "pack_sports",
-    "emoji_clue": "🏸💨",
+    "emoji_clue": "🏸💨💥🤾🥇🏟️",
     "canonical_answer": "Badminton Smash",
     "accepted_answers": [
       "badminton smash",
@@ -4130,7 +4130,7 @@
   {
     "id": "puz_286",
     "pack_id": "pack_sports",
-    "emoji_clue": "⛷️🎯",
+    "emoji_clue": "⛷️🎯🔫❄️🏔️🥇",
     "canonical_answer": "Biathlon",
     "accepted_answers": [
       "biathlon"
@@ -4144,7 +4144,7 @@
   {
     "id": "puz_287",
     "pack_id": "pack_sports",
-    "emoji_clue": "🚴🏔️",
+    "emoji_clue": "🚴🏔️🌲⬇️💨🪨",
     "canonical_answer": "Mountain Biking",
     "accepted_answers": [
       "mountain biking",
@@ -4159,7 +4159,7 @@
   {
     "id": "puz_288",
     "pack_id": "pack_sports",
-    "emoji_clue": "🏹🐴",
+    "emoji_clue": "🏹🐴🏃💨🎯🏜️",
     "canonical_answer": "Mounted Archery",
     "accepted_answers": [
       "mounted archery"
@@ -4173,7 +4173,7 @@
   {
     "id": "puz_289",
     "pack_id": "pack_sports",
-    "emoji_clue": "🤽🥅",
+    "emoji_clue": "💧🤽🥅🏊🐴🏆",
     "canonical_answer": "Water Polo",
     "accepted_answers": [
       "water polo"
@@ -4187,7 +4187,7 @@
   {
     "id": "puz_290",
     "pack_id": "pack_sports",
-    "emoji_clue": "🛷🏔️",
+    "emoji_clue": "🛷🏔️❄️⬇️💨🧊",
     "canonical_answer": "Luge",
     "accepted_answers": [
       "luge"
@@ -4201,7 +4201,7 @@
   {
     "id": "puz_291",
     "pack_id": "pack_sports",
-    "emoji_clue": "⛸️💃",
+    "emoji_clue": "⛸️💃🎵🧊❄️🥇",
     "canonical_answer": "Figure Skating",
     "accepted_answers": [
       "figure skating"
@@ -4215,7 +4215,7 @@
   {
     "id": "puz_292",
     "pack_id": "pack_sports",
-    "emoji_clue": "🏇🤸",
+    "emoji_clue": "🏇🐴🔨⚽🌿🏆",
     "canonical_answer": "Polo",
     "accepted_answers": [
       "polo"
@@ -4229,7 +4229,7 @@
   {
     "id": "puz_293",
     "pack_id": "pack_sports",
-    "emoji_clue": "🤸🏊",
+    "emoji_clue": "🤸🏊👯‍♀️🎵🌊🥇",
     "canonical_answer": "Synchronized Swimming",
     "accepted_answers": [
       "synchronized swimming",
@@ -4244,7 +4244,7 @@
   {
     "id": "puz_294",
     "pack_id": "pack_sports",
-    "emoji_clue": "🏊🔫",
+    "emoji_clue": "🏊🤺🏃🔫🐴🥇",
     "canonical_answer": "Modern Pentathlon",
     "accepted_answers": [
       "modern pentathlon",
@@ -4259,7 +4259,7 @@
   {
     "id": "puz_295",
     "pack_id": "pack_sports",
-    "emoji_clue": "🧗🧊",
+    "emoji_clue": "🧗🧊❄️🏔️⛏️🪢",
     "canonical_answer": "Ice Climbing",
     "accepted_answers": [
       "ice climbing"
@@ -4273,7 +4273,7 @@
   {
     "id": "puz_296",
     "pack_id": "pack_sports",
-    "emoji_clue": "🚣‍♂️🌊",
+    "emoji_clue": "🚣‍♂️🌊🛶🏔️💨🏞️",
     "canonical_answer": "Kayaking",
     "accepted_answers": [
       "kayaking",
@@ -4288,7 +4288,7 @@
   {
     "id": "puz_297",
     "pack_id": "pack_sports",
-    "emoji_clue": "🏌️🌙",
+    "emoji_clue": "🏌️🌙⛳🔦🌃🏆",
     "canonical_answer": "Night Golf",
     "accepted_answers": [
       "night golf"
@@ -4302,7 +4302,7 @@
   {
     "id": "puz_298",
     "pack_id": "pack_sports",
-    "emoji_clue": "🤸🦘",
+    "emoji_clue": "🤸🏃🏢⬆️💨🦘",
     "canonical_answer": "Parkour",
     "accepted_answers": [
       "parkour",
@@ -4317,7 +4317,7 @@
   {
     "id": "puz_299",
     "pack_id": "pack_sports",
-    "emoji_clue": "🎿🪂",
+    "emoji_clue": "🎿🪂⬆️❄️🏔️💨",
     "canonical_answer": "Ski Jumping",
     "accepted_answers": [
       "ski jumping",
@@ -4332,7 +4332,7 @@
   {
     "id": "puz_300",
     "pack_id": "pack_sports",
-    "emoji_clue": "🤿🔫",
+    "emoji_clue": "🤿🔱🐟🌊🏝️🦈",
     "canonical_answer": "Spearfishing",
     "accepted_answers": [
       "spearfishing",
@@ -4595,7 +4595,7 @@
   {
     "id": "puz_318",
     "pack_id": "pack_books",
-    "emoji_clue": "👑💍",
+    "emoji_clue": "👑💍🧙🗡️🏔️",
     "canonical_answer": "Lord of the Rings",
     "accepted_answers": [
       "lord of the rings",
@@ -4610,7 +4610,7 @@
   {
     "id": "puz_319",
     "pack_id": "pack_books",
-    "emoji_clue": "🐕🌃",
+    "emoji_clue": "📞🐺🌲🏔️❄️",
     "canonical_answer": "The Call of the Wild",
     "accepted_answers": [
       "the call of the wild",
@@ -4625,7 +4625,7 @@
   {
     "id": "puz_320",
     "pack_id": "pack_books",
-    "emoji_clue": "🌊👴🐟",
+    "emoji_clue": "👴🌊🐟🚣🌅",
     "canonical_answer": "The Old Man and the Sea",
     "accepted_answers": [
       "the old man and the sea"
@@ -4639,7 +4639,7 @@
   {
     "id": "puz_321",
     "pack_id": "pack_books",
-    "emoji_clue": "🏚️👻",
+    "emoji_clue": "👻🏚️🏔️🌙💀",
     "canonical_answer": "The Haunting of Hill House",
     "accepted_answers": [
       "the haunting of hill house",
@@ -4654,7 +4654,7 @@
   {
     "id": "puz_322",
     "pack_id": "pack_books",
-    "emoji_clue": "🦅🔥",
+    "emoji_clue": "🌡️🔥📖🚒🏚️",
     "canonical_answer": "Fahrenheit 451",
     "accepted_answers": [
       "fahrenheit 451"
@@ -4668,7 +4668,7 @@
   {
     "id": "puz_323",
     "pack_id": "pack_books",
-    "emoji_clue": "🐀🍳",
+    "emoji_clue": "🐀🍳👨‍🍳🇫🇷🍽️",
     "canonical_answer": "Ratatouille",
     "accepted_answers": [
       "ratatouille"
@@ -4682,7 +4682,7 @@
   {
     "id": "puz_324",
     "pack_id": "pack_books",
-    "emoji_clue": "👁️🧠",
+    "emoji_clue": "👁️🧠📺🏛️⛓️",
     "canonical_answer": "1984",
     "accepted_answers": [
       "1984",
@@ -4697,7 +4697,7 @@
   {
     "id": "puz_325",
     "pack_id": "pack_books",
-    "emoji_clue": "🐷🏡",
+    "emoji_clue": "🐷🏡🐄🐔🌾",
     "canonical_answer": "Animal Farm",
     "accepted_answers": [
       "animal farm"
@@ -4711,7 +4711,7 @@
   {
     "id": "puz_326",
     "pack_id": "pack_books",
-    "emoji_clue": "🐢🐢🐢",
+    "emoji_clue": "🐢🐢🐢🥷🍕",
     "canonical_answer": "Teenage Mutant Ninja Turtles",
     "accepted_answers": [
       "teenage mutant ninja turtles",
@@ -4726,7 +4726,7 @@
   {
     "id": "puz_327",
     "pack_id": "pack_books",
-    "emoji_clue": "🍫🏭",
+    "emoji_clue": "🍫🏭👦🎫🍬",
     "canonical_answer": "Charlie and the Chocolate Factory",
     "accepted_answers": [
       "charlie and the chocolate factory"
@@ -4740,7 +4740,7 @@
   {
     "id": "puz_328",
     "pack_id": "pack_books",
-    "emoji_clue": "🕸️👨",
+    "emoji_clue": "🕸️👨🏙️🦸💪",
     "canonical_answer": "Spider-Man",
     "accepted_answers": [
       "spider-man",
@@ -4755,7 +4755,7 @@
   {
     "id": "puz_329",
     "pack_id": "pack_books",
-    "emoji_clue": "💧🚢⬇️",
+    "emoji_clue": "💧🚢⬇️🐇🌾",
     "canonical_answer": "Watership Down",
     "accepted_answers": [
       "watership down"
@@ -4769,7 +4769,7 @@
   {
     "id": "puz_330",
     "pack_id": "pack_books",
-    "emoji_clue": "🐺📞",
+    "emoji_clue": "🐺📞🌲🐾🏔️",
     "canonical_answer": "The Call of the Wild",
     "accepted_answers": [
       "the call of the wild"
@@ -4783,7 +4783,7 @@
   {
     "id": "puz_331",
     "pack_id": "pack_books",
-    "emoji_clue": "🌹📖",
+    "emoji_clue": "🌹📖✍️🏰🔍",
     "canonical_answer": "The Name of the Rose",
     "accepted_answers": [
       "the name of the rose"
@@ -4797,7 +4797,7 @@
   {
     "id": "puz_332",
     "pack_id": "pack_books",
-    "emoji_clue": "🧛📜",
+    "emoji_clue": "🧛📜🏰🌙🦇",
     "canonical_answer": "Dracula",
     "accepted_answers": [
       "dracula"
@@ -4811,7 +4811,7 @@
   {
     "id": "puz_333",
     "pack_id": "pack_books",
-    "emoji_clue": "🕶️🔫",
+    "emoji_clue": "🕶️🔫🍸🏎️👔",
     "canonical_answer": "James Bond",
     "accepted_answers": [
       "james bond",
@@ -4826,7 +4826,7 @@
   {
     "id": "puz_334",
     "pack_id": "pack_books",
-    "emoji_clue": "🦁🔮",
+    "emoji_clue": "🦁🔮🚪❄️👑",
     "canonical_answer": "The Chronicles of Narnia",
     "accepted_answers": [
       "the chronicles of narnia",
@@ -4841,7 +4841,7 @@
   {
     "id": "puz_335",
     "pack_id": "pack_books",
-    "emoji_clue": "🕊️🔥",
+    "emoji_clue": "🍽️🔥🏟️🏹👧🕊️",
     "canonical_answer": "The Hunger Games",
     "accepted_answers": [
       "the hunger games",
@@ -4856,7 +4856,7 @@
   {
     "id": "puz_336",
     "pack_id": "pack_books",
-    "emoji_clue": "🎭🗡️",
+    "emoji_clue": "🔢🏔️🗡️⛓️💰🎭",
     "canonical_answer": "The Count of Monte Cristo",
     "accepted_answers": [
       "the count of monte cristo"
@@ -4870,7 +4870,7 @@
   {
     "id": "puz_337",
     "pack_id": "pack_books",
-    "emoji_clue": "🐦🪤",
+    "emoji_clue": "⚖️🐦🎵🏠👧📖",
     "canonical_answer": "To Kill a Mockingbird",
     "accepted_answers": [
       "to kill a mockingbird"
@@ -4884,7 +4884,7 @@
   {
     "id": "puz_338",
     "pack_id": "pack_books",
-    "emoji_clue": "🌾🤠",
+    "emoji_clue": "🐭🐭👨👨🌾🏠",
     "canonical_answer": "Of Mice and Men",
     "accepted_answers": [
       "of mice and men"
@@ -4898,7 +4898,7 @@
   {
     "id": "puz_339",
     "pack_id": "pack_books",
-    "emoji_clue": "🧪🔬",
+    "emoji_clue": "🧪🔬⚡💀🪡🏰",
     "canonical_answer": "Frankenstein",
     "accepted_answers": [
       "frankenstein"
@@ -4912,7 +4912,7 @@
   {
     "id": "puz_340",
     "pack_id": "pack_books",
-    "emoji_clue": "🏝️🐚",
+    "emoji_clue": "🏝️🐚🪰🔥👦🗡️",
     "canonical_answer": "Lord of the Flies",
     "accepted_answers": [
       "lord of the flies"
@@ -4926,7 +4926,7 @@
   {
     "id": "puz_341",
     "pack_id": "pack_books",
-    "emoji_clue": "🌌📡",
+    "emoji_clue": "👍🚗📖🌌🚀🐬",
     "canonical_answer": "The Hitchhiker's Guide to the Galaxy",
     "accepted_answers": [
       "the hitchhikers guide to the galaxy",
@@ -4941,7 +4941,7 @@
   {
     "id": "puz_342",
     "pack_id": "pack_books",
-    "emoji_clue": "🎩🎪",
+    "emoji_clue": "🌙🎪🎩✨🔮🃏",
     "canonical_answer": "The Night Circus",
     "accepted_answers": [
       "the night circus"
@@ -4955,7 +4955,7 @@
   {
     "id": "puz_343",
     "pack_id": "pack_books",
-    "emoji_clue": "🐉👧",
+    "emoji_clue": "🐉👦🗡️🥚🏔️✨",
     "canonical_answer": "Eragon",
     "accepted_answers": [
       "eragon"
@@ -4969,7 +4969,7 @@
   {
     "id": "puz_344",
     "pack_id": "pack_books",
-    "emoji_clue": "⏰🔙",
+    "emoji_clue": "⏰🔙🔧⚙️🔮👤",
     "canonical_answer": "The Time Machine",
     "accepted_answers": [
       "the time machine"
@@ -4983,7 +4983,7 @@
   {
     "id": "puz_345",
     "pack_id": "pack_books",
-    "emoji_clue": "🌙🐺",
+    "emoji_clue": "🌑🐺🧛👧💔🌙",
     "canonical_answer": "New Moon",
     "accepted_answers": [
       "new moon"
@@ -4997,7 +4997,7 @@
   {
     "id": "puz_346",
     "pack_id": "pack_books",
-    "emoji_clue": "🏴‍☠️🦜",
+    "emoji_clue": "🏴‍☠️🦜👦✨🧚🪝",
     "canonical_answer": "Peter Pan",
     "accepted_answers": [
       "peter pan"
@@ -5011,7 +5011,7 @@
   {
     "id": "puz_347",
     "pack_id": "pack_books",
-    "emoji_clue": "🗡️🛡️",
+    "emoji_clue": "⏰👑🗡️🛡️🧙🏰",
     "canonical_answer": "The Once and Future King",
     "accepted_answers": [
       "the once and future king"
@@ -5025,7 +5025,7 @@
   {
     "id": "puz_348",
     "pack_id": "pack_books",
-    "emoji_clue": "🧬🦕",
+    "emoji_clue": "🧬🦕🦖🏞️🌴⚡",
     "canonical_answer": "Jurassic Park",
     "accepted_answers": [
       "jurassic park"
@@ -5039,7 +5039,7 @@
   {
     "id": "puz_349",
     "pack_id": "pack_books",
-    "emoji_clue": "🌊⛵",
+    "emoji_clue": "🌊⛵🐯🧑🌅🦈",
     "canonical_answer": "Life of Pi",
     "accepted_answers": [
       "life of pi"
@@ -5053,7 +5053,7 @@
   {
     "id": "puz_350",
     "pack_id": "pack_books",
-    "emoji_clue": "👗👠",
+    "emoji_clue": "👗👠💃🎩🏰📖",
     "canonical_answer": "Pride and Prejudice",
     "accepted_answers": [
       "pride and prejudice"
@@ -5311,7 +5311,7 @@
   {
     "id": "puz_368",
     "pack_id": "pack_tv",
-    "emoji_clue": "⬛🪞",
+    "emoji_clue": "⬛🪞📱💻🌃",
     "canonical_answer": "Black Mirror",
     "accepted_answers": [
       "black mirror"
@@ -5325,7 +5325,7 @@
   {
     "id": "puz_369",
     "pack_id": "pack_tv",
-    "emoji_clue": "🔥🪰",
+    "emoji_clue": "🔥🪰🚀🌌🤠",
     "canonical_answer": "Firefly",
     "accepted_answers": [
       "firefly"
@@ -5339,7 +5339,7 @@
   {
     "id": "puz_370",
     "pack_id": "pack_tv",
-    "emoji_clue": "⬛📃",
+    "emoji_clue": "⬛📃📋🔫🕵️",
     "canonical_answer": "The Blacklist",
     "accepted_answers": [
       "the blacklist",
@@ -5354,7 +5354,7 @@
   {
     "id": "puz_371",
     "pack_id": "pack_tv",
-    "emoji_clue": "🧊🔥",
+    "emoji_clue": "🎵🧊🔥📖🐉",
     "canonical_answer": "A Song of Ice and Fire",
     "accepted_answers": [
       "a song of ice and fire",
@@ -5369,7 +5369,7 @@
   {
     "id": "puz_372",
     "pack_id": "pack_tv",
-    "emoji_clue": "👩‍🔬🧪",
+    "emoji_clue": "👩‍🔬🧪🔬🩸🔪",
     "canonical_answer": "Dexter",
     "accepted_answers": [
       "dexter",
@@ -5384,7 +5384,7 @@
   {
     "id": "puz_373",
     "pack_id": "pack_tv",
-    "emoji_clue": "🌌⭐🚀",
+    "emoji_clue": "🌌⭐🚀👽🖖",
     "canonical_answer": "Star Trek",
     "accepted_answers": [
       "star trek"
@@ -5398,7 +5398,7 @@
   {
     "id": "puz_374",
     "pack_id": "pack_tv",
-    "emoji_clue": "👑🎭",
+    "emoji_clue": "👑🎭🇬🇧🏰👸",
     "canonical_answer": "The Crown",
     "accepted_answers": [
       "the crown"
@@ -5412,7 +5412,7 @@
   {
     "id": "puz_375",
     "pack_id": "pack_tv",
-    "emoji_clue": "🐴🤠",
+    "emoji_clue": "🐴🤠🏔️🌲🐻",
     "canonical_answer": "Yellowstone",
     "accepted_answers": [
       "yellowstone"
@@ -5426,7 +5426,7 @@
   {
     "id": "puz_376",
     "pack_id": "pack_tv",
-    "emoji_clue": "👻🏚️",
+    "emoji_clue": "🇺🇸👻🏚️😱🔪",
     "canonical_answer": "American Horror Story",
     "accepted_answers": [
       "american horror story",
@@ -5441,7 +5441,7 @@
   {
     "id": "puz_377",
     "pack_id": "pack_tv",
-    "emoji_clue": "🧛💉",
+    "emoji_clue": "🧛💉🩸🌙🦇",
     "canonical_answer": "True Blood",
     "accepted_answers": [
       "true blood"
@@ -5455,7 +5455,7 @@
   {
     "id": "puz_378",
     "pack_id": "pack_tv",
-    "emoji_clue": "🗡️👑🐉",
+    "emoji_clue": "🏠🐉👑🔥🗡️",
     "canonical_answer": "House of the Dragon",
     "accepted_answers": [
       "house of the dragon"
@@ -5469,7 +5469,7 @@
   {
     "id": "puz_379",
     "pack_id": "pack_tv",
-    "emoji_clue": "🏢⬆️",
+    "emoji_clue": "🏢👔💼⚖️🤝",
     "canonical_answer": "Suits",
     "accepted_answers": [
       "suits"
@@ -5483,7 +5483,7 @@
   {
     "id": "puz_380",
     "pack_id": "pack_tv",
-    "emoji_clue": "🔍🐕",
+    "emoji_clue": "🔍🐕👻🚐🔦",
     "canonical_answer": "Scooby-Doo",
     "accepted_answers": [
       "scooby-doo",
@@ -5498,7 +5498,7 @@
   {
     "id": "puz_381",
     "pack_id": "pack_tv",
-    "emoji_clue": "⚗️🧪",
+    "emoji_clue": "☎️👨‍⚖️⚖️🏛️🤝",
     "canonical_answer": "Better Call Saul",
     "accepted_answers": [
       "better call saul"
@@ -5512,7 +5512,7 @@
   {
     "id": "puz_382",
     "pack_id": "pack_tv",
-    "emoji_clue": "🌍🧟",
+    "emoji_clue": "🌍🧟🍄👧🔫",
     "canonical_answer": "The Last of Us",
     "accepted_answers": [
       "the last of us"
@@ -5526,7 +5526,7 @@
   {
     "id": "puz_383",
     "pack_id": "pack_tv",
-    "emoji_clue": "🕵️🔍",
+    "emoji_clue": "🕵️🔍🧪🎻🏠",
     "canonical_answer": "Sherlock",
     "accepted_answers": [
       "sherlock"
@@ -5540,7 +5540,7 @@
   {
     "id": "puz_384",
     "pack_id": "pack_tv",
-    "emoji_clue": "🛸👽🌽",
+    "emoji_clue": "🛸👽🌽🚲🌃",
     "canonical_answer": "Stranger Things",
     "accepted_answers": [
       "stranger things"
@@ -5554,7 +5554,7 @@
   {
     "id": "puz_385",
     "pack_id": "pack_tv",
-    "emoji_clue": "🏠🌍",
+    "emoji_clue": "🏠🌍🕵️📡🇺🇸💣",
     "canonical_answer": "Homeland",
     "accepted_answers": [
       "homeland"
@@ -5568,7 +5568,7 @@
   {
     "id": "puz_386",
     "pack_id": "pack_tv",
-    "emoji_clue": "🃏🎭",
+    "emoji_clue": "🃏🎭😂🤡🃏💀",
     "canonical_answer": "Joker",
     "accepted_answers": [
       "joker"
@@ -5582,7 +5582,7 @@
   {
     "id": "puz_387",
     "pack_id": "pack_tv",
-    "emoji_clue": "🌊🏴‍☠️",
+    "emoji_clue": "⬛⛵🏴‍☠️🌊🗡️💰",
     "canonical_answer": "Black Sails",
     "accepted_answers": [
       "black sails"
@@ -5596,7 +5596,7 @@
   {
     "id": "puz_388",
     "pack_id": "pack_tv",
-    "emoji_clue": "🧠💉",
+    "emoji_clue": "🧠🍽️🔪👤🦋🍷",
     "canonical_answer": "Hannibal",
     "accepted_answers": [
       "hannibal"
@@ -5610,7 +5610,7 @@
   {
     "id": "puz_389",
     "pack_id": "pack_tv",
-    "emoji_clue": "👨‍✈️🏝️",
+    "emoji_clue": "👨‍✈️🏝️✈️💥🌴🔢",
     "canonical_answer": "Lost",
     "accepted_answers": [
       "lost"
@@ -5624,7 +5624,7 @@
   {
     "id": "puz_390",
     "pack_id": "pack_tv",
-    "emoji_clue": "⚖️👨‍⚖️",
+    "emoji_clue": "⚖️👨‍⚖️📞💵🏛️🤝",
     "canonical_answer": "Better Call Saul",
     "accepted_answers": [
       "better call saul"
@@ -5638,7 +5638,7 @@
   {
     "id": "puz_391",
     "pack_id": "pack_tv",
-    "emoji_clue": "🌑👨‍👩‍👧‍👦",
+    "emoji_clue": "🌑👨‍👩‍👧‍👦⏰🌀🔦💀",
     "canonical_answer": "Dark",
     "accepted_answers": [
       "dark"
@@ -5652,7 +5652,7 @@
   {
     "id": "puz_392",
     "pack_id": "pack_tv",
-    "emoji_clue": "🔴⬛",
+    "emoji_clue": "🦑🎮🔴⬛💀🏟️",
     "canonical_answer": "Squid Game",
     "accepted_answers": [
       "squid game"
@@ -5666,7 +5666,7 @@
   {
     "id": "puz_393",
     "pack_id": "pack_tv",
-    "emoji_clue": "👸🎲",
+    "emoji_clue": "👸♟️🎲🧠🏆💊",
     "canonical_answer": "The Queen's Gambit",
     "accepted_answers": [
       "the queens gambit",
@@ -5681,7 +5681,7 @@
   {
     "id": "puz_394",
     "pack_id": "pack_tv",
-    "emoji_clue": "🧊🧊🧊",
+    "emoji_clue": "❄️🏔️🧊💰🔫🩸",
     "canonical_answer": "Fargo",
     "accepted_answers": [
       "fargo"
@@ -5695,7 +5695,7 @@
   {
     "id": "puz_395",
     "pack_id": "pack_tv",
-    "emoji_clue": "🐻🌲🏔️",
+    "emoji_clue": "🟡🐝✈️💥🌲🏔️",
     "canonical_answer": "Yellowjackets",
     "accepted_answers": [
       "yellowjackets"
@@ -5709,7 +5709,7 @@
   {
     "id": "puz_396",
     "pack_id": "pack_tv",
-    "emoji_clue": "🔔⛪",
+    "emoji_clue": "👩🔴🏛️⛪📖✋",
     "canonical_answer": "The Handmaid's Tale",
     "accepted_answers": [
       "the handmaids tale",
@@ -5724,7 +5724,7 @@
   {
     "id": "puz_397",
     "pack_id": "pack_tv",
-    "emoji_clue": "🕷️🕸️🏠",
+    "emoji_clue": "🐍🥋🤛👊🏟️🥇",
     "canonical_answer": "Cobrai Kai",
     "accepted_answers": [
       "cobra kai"
@@ -5738,7 +5738,7 @@
   {
     "id": "puz_398",
     "pack_id": "pack_tv",
-    "emoji_clue": "🔑🏰",
+    "emoji_clue": "🔑🏰🚪👻🗝️✨",
     "canonical_answer": "Locke & Key",
     "accepted_answers": [
       "locke and key",
@@ -5753,7 +5753,7 @@
   {
     "id": "puz_399",
     "pack_id": "pack_tv",
-    "emoji_clue": "🌙🦇",
+    "emoji_clue": "🌙🦇👻🧛🏠🌃",
     "canonical_answer": "What We Do in the Shadows",
     "accepted_answers": [
       "what we do in the shadows"
@@ -5767,7 +5767,7 @@
   {
     "id": "puz_400",
     "pack_id": "pack_tv",
-    "emoji_clue": "👀📺",
+    "emoji_clue": "👀📺🔪❤️📚🏠",
     "canonical_answer": "You",
     "accepted_answers": [
       "you"
@@ -6032,7 +6032,7 @@
   {
     "id": "puz_418",
     "pack_id": "pack_celebs",
-    "emoji_clue": "🐅🌲",
+    "emoji_clue": "🐅🌲⛳🏌️🏆",
     "canonical_answer": "Tiger Woods",
     "accepted_answers": [
       "tiger woods"
@@ -6046,7 +6046,7 @@
   {
     "id": "puz_419",
     "pack_id": "pack_celebs",
-    "emoji_clue": "🧊🎲",
+    "emoji_clue": "🧊🎲🎤🎬😎",
     "canonical_answer": "Ice Cube",
     "accepted_answers": [
       "ice cube"
@@ -6060,7 +6060,7 @@
   {
     "id": "puz_420",
     "pack_id": "pack_celebs",
-    "emoji_clue": "🌊🐐",
+    "emoji_clue": "🦁⚽🐐🇦🇷🏆",
     "canonical_answer": "Lionel Messi",
     "accepted_answers": [
       "lionel messi",
@@ -6075,7 +6075,7 @@
   {
     "id": "puz_421",
     "pack_id": "pack_celebs",
-    "emoji_clue": "🎸🦊",
+    "emoji_clue": "🎸🔥🎤✌️🌈",
     "canonical_answer": "Jimi Hendrix",
     "accepted_answers": [
       "jimi hendrix",
@@ -6090,7 +6090,7 @@
   {
     "id": "puz_422",
     "pack_id": "pack_celebs",
-    "emoji_clue": "🎤🌹",
+    "emoji_clue": "🪓🌹🎤🎸🤘",
     "canonical_answer": "Axl Rose",
     "accepted_answers": [
       "axl rose",
@@ -6105,7 +6105,7 @@
   {
     "id": "puz_423",
     "pack_id": "pack_celebs",
-    "emoji_clue": "🎬🧔",
+    "emoji_clue": "🎬🧔🔫🤖🏍️",
     "canonical_answer": "Keanu Reeves",
     "accepted_answers": [
       "keanu reeves",
@@ -6120,7 +6120,7 @@
   {
     "id": "puz_424",
     "pack_id": "pack_celebs",
-    "emoji_clue": "🏎️💨",
+    "emoji_clue": "🏎️💨🇬🇧🏆🏁",
     "canonical_answer": "Lewis Hamilton",
     "accepted_answers": [
       "lewis hamilton",
@@ -6135,7 +6135,7 @@
   {
     "id": "puz_425",
     "pack_id": "pack_celebs",
-    "emoji_clue": "🎤🌙",
+    "emoji_clue": "🎤🌙🎵🎩🍸",
     "canonical_answer": "Frank Sinatra",
     "accepted_answers": [
       "frank sinatra",
@@ -6150,7 +6150,7 @@
   {
     "id": "puz_426",
     "pack_id": "pack_celebs",
-    "emoji_clue": "🎬👓",
+    "emoji_clue": "🎬👓🦕🛸🎥",
     "canonical_answer": "Steven Spielberg",
     "accepted_answers": [
       "steven spielberg",
@@ -6165,7 +6165,7 @@
   {
     "id": "puz_427",
     "pack_id": "pack_celebs",
-    "emoji_clue": "🎭👩",
+    "emoji_clue": "🎭👩🏆🎬💃",
     "canonical_answer": "Meryl Streep",
     "accepted_answers": [
       "meryl streep"
@@ -6179,7 +6179,7 @@
   {
     "id": "puz_428",
     "pack_id": "pack_celebs",
-    "emoji_clue": "🎤🎹",
+    "emoji_clue": "🎤🎹👓🌈🎵",
     "canonical_answer": "Elton John",
     "accepted_answers": [
       "elton john"
@@ -6193,7 +6193,7 @@
   {
     "id": "puz_429",
     "pack_id": "pack_celebs",
-    "emoji_clue": "⚽🐐",
+    "emoji_clue": "⚽🐐🇵🇹🏆💪",
     "canonical_answer": "Cristiano Ronaldo",
     "accepted_answers": [
       "cristiano ronaldo",
@@ -6209,7 +6209,7 @@
   {
     "id": "puz_430",
     "pack_id": "pack_celebs",
-    "emoji_clue": "🎬🤖",
+    "emoji_clue": "🎬🤖💪🏋️🇦🇹",
     "canonical_answer": "Arnold Schwarzenegger",
     "accepted_answers": [
       "arnold schwarzenegger",
@@ -6224,7 +6224,7 @@
   {
     "id": "puz_431",
     "pack_id": "pack_celebs",
-    "emoji_clue": "🎤🕺",
+    "emoji_clue": "🎤🕺🌙👑🧤",
     "canonical_answer": "Michael Jackson",
     "accepted_answers": [
       "michael jackson",
@@ -6239,7 +6239,7 @@
   {
     "id": "puz_432",
     "pack_id": "pack_celebs",
-    "emoji_clue": "🎬🐺",
+    "emoji_clue": "🎬🐺🕶️😈🎭",
     "canonical_answer": "Jack Nicholson",
     "accepted_answers": [
       "jack nicholson",
@@ -6254,7 +6254,7 @@
   {
     "id": "puz_433",
     "pack_id": "pack_celebs",
-    "emoji_clue": "🎤📿",
+    "emoji_clue": "🎤📿🦉🇨🇦🎵",
     "canonical_answer": "Drake",
     "accepted_answers": [
       "drake"
@@ -6268,7 +6268,7 @@
   {
     "id": "puz_434",
     "pack_id": "pack_celebs",
-    "emoji_clue": "🎬👸",
+    "emoji_clue": "🎬👸💋🌍🗡️",
     "canonical_answer": "Angelina Jolie",
     "accepted_answers": [
       "angelina jolie",
@@ -6283,7 +6283,7 @@
   {
     "id": "puz_435",
     "pack_id": "pack_celebs",
-    "emoji_clue": "🃏⬛",
+    "emoji_clue": "🃏⬛🎸🎬😂🏫",
     "canonical_answer": "Jack Black",
     "accepted_answers": [
       "jack black"
@@ -6297,7 +6297,7 @@
   {
     "id": "puz_436",
     "pack_id": "pack_celebs",
-    "emoji_clue": "🪵🏞️",
+    "emoji_clue": "🪵🏞️🎤🕺🎵🌊",
     "canonical_answer": "Justin Timberlake",
     "accepted_answers": [
       "justin timberlake",
@@ -6312,7 +6312,7 @@
   {
     "id": "puz_437",
     "pack_id": "pack_celebs",
-    "emoji_clue": "🌊🧱",
+    "emoji_clue": "🌊🧱🏋️💪🎬🤨",
     "canonical_answer": "Dwayne Johnson",
     "accepted_answers": [
       "dwayne johnson",
@@ -6327,7 +6327,7 @@
   {
     "id": "puz_438",
     "pack_id": "pack_celebs",
-    "emoji_clue": "🍎🖥️",
+    "emoji_clue": "🍎🖥️📱💡👨‍💼🔧",
     "canonical_answer": "Steve Jobs",
     "accepted_answers": [
       "steve jobs"
@@ -6341,7 +6341,7 @@
   {
     "id": "puz_439",
     "pack_id": "pack_celebs",
-    "emoji_clue": "🧲🐟",
+    "emoji_clue": "📜🔨🎬🤛🎤👑",
     "canonical_answer": "Will Smith",
     "accepted_answers": [
       "will smith"
@@ -6355,7 +6355,7 @@
   {
     "id": "puz_440",
     "pack_id": "pack_celebs",
-    "emoji_clue": "🔔🌿",
+    "emoji_clue": "🔔🌿📞☎️🔊💡",
     "canonical_answer": "Alexander Graham Bell",
     "accepted_answers": [
       "alexander graham bell",
@@ -6370,7 +6370,7 @@
   {
     "id": "puz_441",
     "pack_id": "pack_celebs",
-    "emoji_clue": "🎤🏔️",
+    "emoji_clue": "🎤💃🔨⭐🌈📺",
     "canonical_answer": "Miley Cyrus",
     "accepted_answers": [
       "miley cyrus",
@@ -6385,7 +6385,7 @@
   {
     "id": "puz_442",
     "pack_id": "pack_celebs",
-    "emoji_clue": "🗡️🎬",
+    "emoji_clue": "🗡️🎬🩸💥🎥🤵",
     "canonical_answer": "Quentin Tarantino",
     "accepted_answers": [
       "quentin tarantino",
@@ -6400,7 +6400,7 @@
   {
     "id": "puz_443",
     "pack_id": "pack_celebs",
-    "emoji_clue": "🧪💡",
+    "emoji_clue": "🧪💡🧠📐👨‍🔬⚡",
     "canonical_answer": "Albert Einstein",
     "accepted_answers": [
       "albert einstein",
@@ -6415,7 +6415,7 @@
   {
     "id": "puz_444",
     "pack_id": "pack_celebs",
-    "emoji_clue": "🎩🐇",
+    "emoji_clue": "🎩🐇✨🔮🃏🪄",
     "canonical_answer": "David Copperfield",
     "accepted_answers": [
       "david copperfield",
@@ -6430,7 +6430,7 @@
   {
     "id": "puz_445",
     "pack_id": "pack_celebs",
-    "emoji_clue": "🎤❄️",
+    "emoji_clue": "🍦❄️🎤🧊🕺🏠",
     "canonical_answer": "Vanilla Ice",
     "accepted_answers": [
       "vanilla ice"
@@ -6444,7 +6444,7 @@
   {
     "id": "puz_446",
     "pack_id": "pack_celebs",
-    "emoji_clue": "🎬🦁",
+    "emoji_clue": "🦁👑🌅🐾🏔️🌍",
     "canonical_answer": "Mufasa",
     "accepted_answers": [
       "mufasa"
@@ -6458,7 +6458,7 @@
   {
     "id": "puz_447",
     "pack_id": "pack_celebs",
-    "emoji_clue": "🎸🌹",
+    "emoji_clue": "🎸🌹🎩🤘🕶️🐍",
     "canonical_answer": "Slash",
     "accepted_answers": [
       "slash"
@@ -6472,7 +6472,7 @@
   {
     "id": "puz_448",
     "pack_id": "pack_celebs",
-    "emoji_clue": "🎤🌊",
+    "emoji_clue": "🎤🌊💅✨🎵🌸",
     "canonical_answer": "SZA",
     "accepted_answers": [
       "sza"
@@ -6486,7 +6486,7 @@
   {
     "id": "puz_449",
     "pack_id": "pack_celebs",
-    "emoji_clue": "🎬🕶️",
+    "emoji_clue": "🎬🕶️🔫💜😤🐍",
     "canonical_answer": "Samuel L. Jackson",
     "accepted_answers": [
       "samuel l jackson",
@@ -6501,7 +6501,7 @@
   {
     "id": "puz_450",
     "pack_id": "pack_celebs",
-    "emoji_clue": "🎤🌸",
+    "emoji_clue": "🎤🌸💚😢🕷️🌙",
     "canonical_answer": "Billie Eilish",
     "accepted_answers": [
       "billie eilish"
@@ -6764,7 +6764,7 @@
   {
     "id": "puz_468",
     "pack_id": "pack_phrases",
-    "emoji_clue": "🐘🏠",
+    "emoji_clue": "🐘🏠👀🤫😬",
     "canonical_answer": "Elephant in the Room",
     "accepted_answers": [
       "elephant in the room",
@@ -6779,7 +6779,7 @@
   {
     "id": "puz_469",
     "pack_id": "pack_phrases",
-    "emoji_clue": "🐂👁️",
+    "emoji_clue": "🐂👁️🎯🏹🔴",
     "canonical_answer": "Bullseye",
     "accepted_answers": [
       "bullseye",
@@ -6795,7 +6795,7 @@
   {
     "id": "puz_470",
     "pack_id": "pack_phrases",
-    "emoji_clue": "🐔🥚",
+    "emoji_clue": "🐔🥚❓🤔⏰",
     "canonical_answer": "Which Came First",
     "accepted_answers": [
       "which came first",
@@ -6810,7 +6810,7 @@
   {
     "id": "puz_471",
     "pack_id": "pack_phrases",
-    "emoji_clue": "🍎🌲",
+    "emoji_clue": "🍎🌲⬇️🚫🏃",
     "canonical_answer": "Apple Doesn't Fall Far",
     "accepted_answers": [
       "the apple doesnt fall far from the tree",
@@ -6825,7 +6825,7 @@
   {
     "id": "puz_472",
     "pack_id": "pack_phrases",
-    "emoji_clue": "🐦🪨🐦",
+    "emoji_clue": "🐦🪨🐦☝️✅",
     "canonical_answer": "Kill Two Birds with One Stone",
     "accepted_answers": [
       "kill two birds with one stone",
@@ -6840,7 +6840,7 @@
   {
     "id": "puz_473",
     "pack_id": "pack_phrases",
-    "emoji_clue": "🌧️☀️",
+    "emoji_clue": "☁️🌧️✨💿☀️",
     "canonical_answer": "Every Cloud Has a Silver Lining",
     "accepted_answers": [
       "every cloud has a silver lining",
@@ -6855,7 +6855,7 @@
   {
     "id": "puz_474",
     "pack_id": "pack_phrases",
-    "emoji_clue": "🐺🐑",
+    "emoji_clue": "🐺🐑👔🎭😈",
     "canonical_answer": "Wolf in Sheep's Clothing",
     "accepted_answers": [
       "wolf in sheeps clothing",
@@ -6870,7 +6870,7 @@
   {
     "id": "puz_475",
     "pack_id": "pack_phrases",
-    "emoji_clue": "🔔🐱",
+    "emoji_clue": "🐱👜📤📢😲",
     "canonical_answer": "Cat's Out of the Bag",
     "accepted_answers": [
       "the cats out of the bag",
@@ -6886,7 +6886,7 @@
   {
     "id": "puz_476",
     "pack_id": "pack_phrases",
-    "emoji_clue": "🎣🐟",
+    "emoji_clue": "🎣🐟🌊🐟🐟",
     "canonical_answer": "There Are Plenty of Fish in the Sea",
     "accepted_answers": [
       "plenty of fish in the sea",
@@ -6901,7 +6901,7 @@
   {
     "id": "puz_477",
     "pack_id": "pack_phrases",
-    "emoji_clue": "🔥🧊",
+    "emoji_clue": "🔥🧊🌡️😰❄️",
     "canonical_answer": "Hot and Cold",
     "accepted_answers": [
       "hot and cold"
@@ -6915,7 +6915,7 @@
   {
     "id": "puz_478",
     "pack_id": "pack_phrases",
-    "emoji_clue": "🐎💧",
+    "emoji_clue": "🐎💧🏞️🚫🥤",
     "canonical_answer": "You Can Lead a Horse to Water",
     "accepted_answers": [
       "you can lead a horse to water",
@@ -6930,7 +6930,7 @@
   {
     "id": "puz_479",
     "pack_id": "pack_phrases",
-    "emoji_clue": "🪨⬇️",
+    "emoji_clue": "🪨⬇️😔💔🏚️",
     "canonical_answer": "Rock Bottom",
     "accepted_answers": [
       "rock bottom"
@@ -6944,7 +6944,7 @@
   {
     "id": "puz_480",
     "pack_id": "pack_phrases",
-    "emoji_clue": "🌙🔫",
+    "emoji_clue": "🌙🔫🚀⭐🎯",
     "canonical_answer": "Shoot for the Moon",
     "accepted_answers": [
       "shoot for the moon"
@@ -6958,7 +6958,7 @@
   {
     "id": "puz_481",
     "pack_id": "pack_phrases",
-    "emoji_clue": "🗝️🚪",
+    "emoji_clue": "🗝️🚪🏆📈✅",
     "canonical_answer": "Key to Success",
     "accepted_answers": [
       "key to success"
@@ -6972,7 +6972,7 @@
   {
     "id": "puz_482",
     "pack_id": "pack_phrases",
-    "emoji_clue": "💎🔎",
+    "emoji_clue": "💎🔎🏜️🪨✨",
     "canonical_answer": "Diamond in the Rough",
     "accepted_answers": [
       "diamond in the rough"
@@ -6986,7 +6986,7 @@
   {
     "id": "puz_483",
     "pack_id": "pack_phrases",
-    "emoji_clue": "🐝🧎",
+    "emoji_clue": "🧎💍❤️🙏👇",
     "canonical_answer": "On Bended Knee",
     "accepted_answers": [
       "on bended knee"
@@ -7000,7 +7000,7 @@
   {
     "id": "puz_484",
     "pack_id": "pack_phrases",
-    "emoji_clue": "🎭🎭",
+    "emoji_clue": "🎭🎭👤😇😈",
     "canonical_answer": "Two-Faced",
     "accepted_answers": [
       "two-faced",
@@ -7015,7 +7015,7 @@
   {
     "id": "puz_485",
     "pack_id": "pack_phrases",
-    "emoji_clue": "🐢🐇",
+    "emoji_clue": "🐢🐇🏁🐢🏃💨🏆",
     "canonical_answer": "Slow and Steady Wins the Race",
     "accepted_answers": [
       "slow and steady wins the race",
@@ -7030,7 +7030,7 @@
   {
     "id": "puz_486",
     "pack_id": "pack_phrases",
-    "emoji_clue": "🔑🗑️",
+    "emoji_clue": "🔑🗑️⛓️🏰🔒🚫",
     "canonical_answer": "Throw Away the Key",
     "accepted_answers": [
       "throw away the key"
@@ -7044,7 +7044,7 @@
   {
     "id": "puz_487",
     "pack_id": "pack_phrases",
-    "emoji_clue": "🐦✋",
+    "emoji_clue": "🐦✋🌳👀🐦🐦",
     "canonical_answer": "A Bird in the Hand",
     "accepted_answers": [
       "a bird in the hand",
@@ -7059,7 +7059,7 @@
   {
     "id": "puz_488",
     "pack_id": "pack_phrases",
-    "emoji_clue": "🌊🐟",
+    "emoji_clue": "🐟🐟🏞️📏🏠🌊",
     "canonical_answer": "Big Fish in a Small Pond",
     "accepted_answers": [
       "big fish in a small pond",
@@ -7074,7 +7074,7 @@
   {
     "id": "puz_489",
     "pack_id": "pack_phrases",
-    "emoji_clue": "🏠🃏",
+    "emoji_clue": "🏠🃏🃏🏛️💨💥",
     "canonical_answer": "House of Cards",
     "accepted_answers": [
       "house of cards"
@@ -7088,7 +7088,7 @@
   {
     "id": "puz_490",
     "pack_id": "pack_phrases",
-    "emoji_clue": "🐛🫙",
+    "emoji_clue": "🥫🐛🐛📤😱🌀",
     "canonical_answer": "Can of Worms",
     "accepted_answers": [
       "can of worms",
@@ -7103,7 +7103,7 @@
   {
     "id": "puz_491",
     "pack_id": "pack_phrases",
-    "emoji_clue": "🔔🐈‍⬛",
+    "emoji_clue": "❓🔔🐈‍⬛🐭🐭😰",
     "canonical_answer": "Who Will Bell the Cat",
     "accepted_answers": [
       "who will bell the cat",
@@ -7118,7 +7118,7 @@
   {
     "id": "puz_492",
     "pack_id": "pack_phrases",
-    "emoji_clue": "⛵🚢",
+    "emoji_clue": "⛵🚫🌊🪨😨🤫",
     "canonical_answer": "Don't Rock the Boat",
     "accepted_answers": [
       "dont rock the boat",
@@ -7133,7 +7133,7 @@
   {
     "id": "puz_493",
     "pack_id": "pack_phrases",
-    "emoji_clue": "🐘🧠",
+    "emoji_clue": "🐘🧠💭📚⏰🔙",
     "canonical_answer": "Memory of an Elephant",
     "accepted_answers": [
       "memory of an elephant",
@@ -7148,7 +7148,7 @@
   {
     "id": "puz_494",
     "pack_id": "pack_phrases",
-    "emoji_clue": "🪞💀",
+    "emoji_clue": "💀🚪👔🤫🔑😱",
     "canonical_answer": "Skeleton in the Closet",
     "accepted_answers": [
       "skeleton in the closet",
@@ -7163,7 +7163,7 @@
   {
     "id": "puz_495",
     "pack_id": "pack_phrases",
-    "emoji_clue": "🍪🫙",
+    "emoji_clue": "✋🍪🫙🤫👀😅",
     "canonical_answer": "Hand in the Cookie Jar",
     "accepted_answers": [
       "hand in the cookie jar",
@@ -7178,7 +7178,7 @@
   {
     "id": "puz_496",
     "pack_id": "pack_phrases",
-    "emoji_clue": "🦆🌊",
+    "emoji_clue": "🦆💧🌊🔙😌🛡️",
     "canonical_answer": "Like Water Off a Duck's Back",
     "accepted_answers": [
       "like water off a ducks back",
@@ -7193,7 +7193,7 @@
   {
     "id": "puz_497",
     "pack_id": "pack_phrases",
-    "emoji_clue": "🐍🌿",
+    "emoji_clue": "🐍🌿🌾👀⚠️🤫",
     "canonical_answer": "Snake in the Grass",
     "accepted_answers": [
       "snake in the grass"
@@ -7207,7 +7207,7 @@
   {
     "id": "puz_498",
     "pack_id": "pack_phrases",
-    "emoji_clue": "🧊💔",
+    "emoji_clue": "❄️🧊💔🥶😤👤",
     "canonical_answer": "Cold Hearted",
     "accepted_answers": [
       "cold hearted",
@@ -7222,7 +7222,7 @@
   {
     "id": "puz_499",
     "pack_id": "pack_phrases",
-    "emoji_clue": "🐸🌧️",
+    "emoji_clue": "🐸🟢😤😢🌿💚",
     "canonical_answer": "It's Not Easy Being Green",
     "accepted_answers": [
       "its not easy being green",
@@ -7237,7 +7237,7 @@
   {
     "id": "puz_500",
     "pack_id": "pack_phrases",
-    "emoji_clue": "🦁❤️",
+    "emoji_clue": "🦁❤️👑⚔️🛡️🏰",
     "canonical_answer": "Lionheart",
     "accepted_answers": [
       "lionheart",
