@@ -7,6 +7,7 @@ const navItems = [
   { href: "/", label: "Home", icon: "🏠" },
   { href: "/play/daily", label: "Daily", icon: "📅" },
   { href: "/play/practice", label: "Practice", icon: "🎯" },
+  { href: "/leaderboard", label: "Ranks", icon: "🏆" },
   { href: "/settings", label: "Settings", icon: "⚙️" },
 ];
 
