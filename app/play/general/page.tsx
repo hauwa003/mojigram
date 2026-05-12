@@ -25,7 +25,7 @@ export default function GeneralPage() {
       const anonId = createAnonymousId();
 
       const res = await fetch(
-        `/api/practice?mode=general&count=5&difficulty=${difficulty}`
+        `/api/practice?mode=general&count=50&difficulty=${difficulty}`
       );
       if (!res.ok) throw new Error("Failed to load puzzles");
       const data = await res.json();

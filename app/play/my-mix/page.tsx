@@ -61,7 +61,7 @@ export default function MyMixPage() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           packIds: selectedIds.length > 0 ? selectedIds : undefined,
-          count: 5,
+          count: 50,
           difficulty,
         }),
       });
