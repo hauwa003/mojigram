@@ -33,7 +33,8 @@ export default function OnboardingPage() {
     if (currentStep < steps.length - 1) {
       setCurrentStep(currentStep + 1);
     } else {
-      router.push("/onboarding/vibe");
+      localStorage.setItem("mojigram_onboarded", "true");
+      router.push("/");
     }
   }
 
@@ -41,7 +42,7 @@ export default function OnboardingPage() {
 
   return (
     <div className="min-h-dvh flex flex-col items-center justify-center px-6">
-      <div className="max-w-sm w-full space-y-8 text-center">
+      <div className="max-w-sm w-full flex flex-col gap-8 text-center">
         {/* Step indicator */}
         <div className="flex justify-center gap-2">
           {steps.map((_, i) => (
@@ -59,7 +60,7 @@ export default function OnboardingPage() {
         </div>
 
         {/* Content */}
-        <div className="space-y-4">
+        <div className="flex flex-col gap-4 items-center">
           <span className="text-6xl inline-block">{step.emoji}</span>
           <h2 className="font-heading text-2xl font-bold">{step.title}</h2>
           <p className="text-muted-foreground leading-relaxed">
@@ -68,12 +69,12 @@ export default function OnboardingPage() {
         </div>
 
         {/* Actions */}
-        <div className="space-y-3">
+        <div className="flex flex-col gap-3">
           <Button
             onClick={handleNext}
             className="w-full h-12 text-base font-semibold bg-primary hover:bg-primary/90"
           >
-            {currentStep < steps.length - 1 ? "Next" : "Choose Your Vibe"}
+            {currentStep < steps.length - 1 ? "Next" : "Let's Play!"}
           </Button>
           {currentStep === 0 && (
             <Button

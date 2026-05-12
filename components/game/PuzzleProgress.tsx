@@ -6,11 +6,11 @@ interface PuzzleProgressProps {
 }
 
 export function PuzzleProgress({ current, total }: PuzzleProgressProps) {
-  const progress = ((current) / total) * 100;
+  const progress = (current / total) * 100;
 
   return (
-    <div className="space-y-1">
-      <p className="text-sm text-muted-foreground text-center">
+    <div className="flex-1 mr-4">
+      <p className="text-sm text-muted-foreground mb-1">
         Puzzle {current} of {total}
       </p>
       <div className="h-2 bg-muted rounded-full overflow-hidden">

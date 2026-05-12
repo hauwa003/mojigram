@@ -23,10 +23,10 @@ export function PackCard({
       className={`cursor-pointer transition-all ${
         selected
           ? "border-2 border-primary shadow-md ring-2 ring-primary/20"
-          : "border border-border hover:shadow-sm"
+          : "border-2 border-border hover:shadow-sm"
       }`}
     >
-      <CardContent className="p-4 text-center space-y-1.5">
+      <CardContent className="p-4 text-center flex flex-col gap-1.5">
         <span className="text-3xl">{emoji_icon}</span>
         <h3 className="font-heading text-sm font-bold">{name}</h3>
         <p className="text-xs text-muted-foreground line-clamp-2">
