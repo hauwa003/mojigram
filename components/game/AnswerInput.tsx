@@ -36,7 +36,7 @@ export function AnswerInput({
         }}
         disabled={disabled}
         placeholder={placeholder}
-        className="text-center text-lg h-14 rounded-xl border-3 border-foreground shadow-brutal-sm focus-visible:shadow-brutal-purple focus-visible:border-purple bg-background"
+        className="text-center text-lg h-14 rounded-xl border-3 border-foreground shadow-brutal-sm focus-visible:shadow-brutal-purple focus-visible:border-purple bg-white"
         autoComplete="off"
         autoCapitalize="off"
         spellCheck={false}
