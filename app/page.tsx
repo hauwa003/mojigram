@@ -2,11 +2,8 @@
 
 import { motion } from "framer-motion";
 import { AppShell } from "@/components/layout";
-import { DailyChallengeCard } from "@/components/home/DailyChallengeCard";
 import { GeneralModeCard } from "@/components/home/GeneralModeCard";
 import { MyMixCard } from "@/components/home/MyMixCard";
-import { PracticeModeCard } from "@/components/home/PracticeModeCard";
-import { LevelsModeCard } from "@/components/home/LevelsModeCard";
 import { staggerContainer, staggerItem } from "@/lib/motion";
 
 export default function HomePage() {
@@ -35,19 +32,12 @@ export default function HomePage() {
           </p>
         </motion.div>
 
-        {/* Daily Challenge — featured */}
-        <motion.div variants={staggerItem}>
-          <DailyChallengeCard />
-        </motion.div>
-
-        {/* Other modes */}
+        {/* Play modes */}
         <motion.div className="flex flex-col gap-4" variants={staggerItem}>
           <h2 className="font-heading text-lg font-semibold">Play Modes</h2>
           <div className="flex flex-col gap-3">
-            <LevelsModeCard />
             <GeneralModeCard />
             <MyMixCard />
-            <PracticeModeCard />
           </div>
         </motion.div>
       </motion.div>

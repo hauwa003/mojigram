@@ -82,11 +82,16 @@ export function getLevelCount(
 
 export function getRandomPuzzles(
   count: number,
-  packIds?: string[]
+  packIds?: string[],
+  difficulty?: "easy" | "medium" | "hard"
 ): PuzzleForPlay[] {
-  const pool = packIds && packIds.length > 0
+  let pool = packIds && packIds.length > 0
     ? getPuzzlesByPackIds(packIds)
     : puzzles;
+
+  if (difficulty) {
+    pool = pool.filter((p) => p.difficulty === difficulty);
+  }
 
   const shuffled = [...pool].sort(() => Math.random() - 0.5);
   return shuffled.slice(0, count).map(stripAnswers);

@@ -1,65 +1,99 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 import { motion } from "framer-motion";
 import { AppShell } from "@/components/layout";
 import { GameScreen } from "@/components/game/GameScreen";
+import { DifficultyPicker } from "@/components/levels/DifficultyPicker";
+import { Button } from "@/components/ui/button";
 import { createAnonymousId } from "@/lib/utils/createAnonymousId";
 import { spring } from "@/lib/motion";
 import type { PuzzleForPlay } from "@/types/puzzle";
 
+type Difficulty = "easy" | "medium" | "hard";
+
 export default function GeneralPage() {
+  const [phase, setPhase] = useState<"pick" | "play">("pick");
+  const [difficulty, setDifficulty] = useState<Difficulty>("easy");
   const [puzzles, setPuzzles] = useState<PuzzleForPlay[]>([]);
   const [sessionId, setSessionId] = useState("");
-  const [loading, setLoading] = useState(true);
-  const [gameKey, setGameKey] = useState(0);
+  const [loading, setLoading] = useState(false);
 
-  useEffect(() => {
-    async function startGeneral() {
-      try {
-        const anonId = createAnonymousId();
+  const startGame = useCallback(async () => {
+    setLoading(true);
+    try {
+      const anonId = createAnonymousId();
 
-        const res = await fetch("/api/practice?mode=general&count=5");
-        if (!res.ok) throw new Error("Failed to load puzzles");
-        const data = await res.json();
+      const res = await fetch(
+        `/api/practice?mode=general&count=5&difficulty=${difficulty}`
+      );
+      if (!res.ok) throw new Error("Failed to load puzzles");
+      const data = await res.json();
 
-        const sessionRes = await fetch("/api/sessions", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            anonId,
-            sessionType: "general",
-            puzzleIds: data.puzzles.map((p: PuzzleForPlay) => p.id),
-          }),
-        });
-        const sessionData = await sessionRes.json();
+      const sessionRes = await fetch("/api/sessions", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          anonId,
+          sessionType: "general",
+          puzzleIds: data.puzzles.map((p: PuzzleForPlay) => p.id),
+        }),
+      });
+      const sessionData = await sessionRes.json();
 
-        setPuzzles(data.puzzles);
-        setSessionId(sessionData.sessionId);
-      } catch {
-        // Fall back to home
-      } finally {
-        setLoading(false);
-      }
+      setPuzzles(data.puzzles);
+      setSessionId(sessionData.sessionId);
+      setPhase("play");
+    } catch {
+      // Fall back
+    } finally {
+      setLoading(false);
     }
+  }, [difficulty]);
 
-    startGeneral();
-  }, [gameKey]);
+  if (phase === "pick") {
+    return (
+      <AppShell>
+        <div className="space-y-5">
+          <div>
+            <h2 className="font-heading text-xl font-extrabold">
+              General Mode 🎲
+            </h2>
+            <p className="text-sm text-muted-foreground mt-1">
+              Random puzzles from all packs — pick your difficulty
+            </p>
+          </div>
+
+          <DifficultyPicker selected={difficulty} onSelect={setDifficulty} />
+
+          <motion.div
+            whileTap={{ scale: 0.97, x: 2, y: 2 }}
+            transition={spring.bouncy}
+          >
+            <Button
+              onClick={startGame}
+              disabled={loading}
+              className="w-full h-12 text-base font-extrabold bg-primary hover:bg-primary/90 border-3 border-foreground shadow-brutal brutal-press"
+            >
+              {loading ? "Loading..." : "Start"}
+            </Button>
+          </motion.div>
+        </div>
+      </AppShell>
+    );
+  }
 
   if (loading) {
     return (
       <AppShell>
         <div className="flex items-center justify-center py-20">
-          <div className="text-center space-y-3">
-            <motion.span
-              className="text-4xl inline-block"
-              animate={{ y: [0, -12, 0] }}
-              transition={{ duration: 0.6, repeat: Infinity, ease: "easeInOut" }}
-            >
-              🎲
-            </motion.span>
-            <p className="text-muted-foreground">Loading puzzles...</p>
-          </div>
+          <motion.span
+            className="text-4xl inline-block"
+            animate={{ y: [0, -12, 0] }}
+            transition={{ duration: 0.6, repeat: Infinity, ease: "easeInOut" }}
+          >
+            🎲
+          </motion.span>
         </div>
       </AppShell>
     );
@@ -70,13 +104,13 @@ export default function GeneralPage() {
       <div>
         <h2 className="font-heading text-xl font-bold mb-2">General Mode</h2>
         <GameScreen
-          key={gameKey}
           sessionId={sessionId}
           sessionType="general"
           puzzles={puzzles}
           onPlayAgain={() => {
-            setLoading(true);
-            setGameKey((k) => k + 1);
+            setPhase("pick");
+            setPuzzles([]);
+            setSessionId("");
           }}
         />
       </div>
