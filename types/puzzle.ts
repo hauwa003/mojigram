@@ -8,6 +8,7 @@ export interface Puzzle {
   difficulty: 'easy' | 'medium' | 'hard';
   category: string;
   accessibility_label: string;
+  level_order: number;
   created_at: string;
 }
 
@@ -20,6 +21,7 @@ export interface PuzzleForPlay {
   difficulty: 'easy' | 'medium' | 'hard';
   category: string;
   accessibility_label: string;
+  level_order: number;
 }
 
 export interface PuzzlePack {

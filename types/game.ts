@@ -1,6 +1,6 @@
 import { PuzzleForPlay } from './puzzle';
 
-export type SessionType = 'daily' | 'general' | 'practice' | 'my_mix';
+export type SessionType = 'daily' | 'general' | 'practice' | 'my_mix' | 'level';
 
 export interface PuzzleState {
   puzzle: PuzzleForPlay;
