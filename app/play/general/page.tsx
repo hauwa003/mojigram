@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import { AppShell } from "@/components/layout";
 import { GameScreen } from "@/components/game/GameScreen";
@@ -10,10 +9,10 @@ import { spring } from "@/lib/motion";
 import type { PuzzleForPlay } from "@/types/puzzle";
 
 export default function GeneralPage() {
-  const router = useRouter();
   const [puzzles, setPuzzles] = useState<PuzzleForPlay[]>([]);
   const [sessionId, setSessionId] = useState("");
   const [loading, setLoading] = useState(true);
+  const [gameKey, setGameKey] = useState(0);
 
   useEffect(() => {
     async function startGeneral() {
@@ -45,7 +44,7 @@ export default function GeneralPage() {
     }
 
     startGeneral();
-  }, []);
+  }, [gameKey]);
 
   if (loading) {
     return (
@@ -71,10 +70,14 @@ export default function GeneralPage() {
       <div>
         <h2 className="font-heading text-xl font-bold mb-2">General Mode</h2>
         <GameScreen
+          key={gameKey}
           sessionId={sessionId}
           sessionType="general"
           puzzles={puzzles}
-          onPlayAgain={() => router.refresh()}
+          onPlayAgain={() => {
+            setLoading(true);
+            setGameKey((k) => k + 1);
+          }}
         />
       </div>
     </AppShell>
