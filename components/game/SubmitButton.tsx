@@ -13,14 +13,13 @@ interface SubmitButtonProps {
 export function SubmitButton({ onClick, disabled = false, loading = false }: SubmitButtonProps) {
   return (
     <motion.div
-      whileHover={{ scale: 1.02 }}
-      whileTap={{ scale: 0.95 }}
+      whileTap={{ scale: 0.97, x: 2, y: 2 }}
       transition={spring.bouncy}
     >
       <Button
         onClick={onClick}
         disabled={disabled || loading}
-        className="w-full h-14 text-base font-bold rounded-2xl bg-primary hover:bg-primary/90 shadow-purple"
+        className="w-full h-14 text-base font-extrabold rounded-xl bg-primary hover:bg-primary/90 border-3 border-foreground shadow-brutal brutal-press"
       >
         {loading ? "Checking..." : "Submit"}
       </Button>

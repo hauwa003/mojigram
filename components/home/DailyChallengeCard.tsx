@@ -14,12 +14,12 @@ export function DailyChallengeCard() {
   });
 
   return (
-    <Card className="border-2 border-primary/20 bg-gradient-to-br from-purple-light via-background to-pink-light shadow-purple overflow-hidden">
+    <Card className="border-3 border-foreground bg-purple-light shadow-brutal-purple overflow-hidden">
       <CardContent className="p-5">
         <div className="flex items-center justify-between mb-3">
           <div>
-            <p className="text-sm text-muted-foreground">{today}</p>
-            <h3 className="font-heading text-lg font-bold text-foreground">
+            <p className="text-sm text-muted-foreground font-medium">{today}</p>
+            <h3 className="font-heading text-lg font-extrabold text-foreground">
               Daily Mojigram
             </h3>
           </div>
@@ -35,8 +35,8 @@ export function DailyChallengeCard() {
           5 puzzles. One shot. How will you score?
         </p>
         <Link href="/play/daily">
-          <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }} transition={spring.bouncy}>
-            <Button className="w-full bg-primary hover:bg-primary/90">
+          <motion.div whileTap={{ scale: 0.97 }} transition={spring.bouncy}>
+            <Button className="w-full bg-primary hover:bg-primary/90 border-2 border-foreground shadow-brutal-sm brutal-press font-bold">
               Play Today&apos;s Challenge
             </Button>
           </motion.div>

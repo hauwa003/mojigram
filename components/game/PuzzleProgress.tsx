@@ -13,12 +13,12 @@ export function PuzzleProgress({ current, total }: PuzzleProgressProps) {
 
   return (
     <div className="flex-1 mr-4">
-      <p className="text-sm text-muted-foreground mb-1">
+      <p className="text-sm text-muted-foreground font-medium mb-1">
         Puzzle {current} of {total}
       </p>
-      <div className="h-2.5 bg-muted rounded-full overflow-hidden">
+      <div className="h-3 bg-muted rounded-full overflow-hidden border-2 border-foreground">
         <motion.div
-          className="h-full bg-gradient-to-r from-purple to-pink rounded-full"
+          className="h-full bg-primary rounded-full"
           initial={{ width: 0 }}
           animate={{ width: `${progress}%` }}
           transition={spring.gentle}

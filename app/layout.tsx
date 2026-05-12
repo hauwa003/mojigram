@@ -1,6 +1,5 @@
 import type { Metadata, Viewport } from "next";
 import { Baloo_2, Inter } from "next/font/google";
-import { ThemeProvider } from "next-themes";
 import { Toaster } from "@/components/ui/sonner";
 import "./globals.css";
 
@@ -36,12 +35,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${baloo2.variable} ${inter.variable}`} suppressHydrationWarning>
+    <html lang="en" className={`${baloo2.variable} ${inter.variable}`}>
       <body className="min-h-dvh flex flex-col bg-background text-foreground antialiased font-sans">
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          {children}
-          <Toaster position="top-center" richColors />
-        </ThemeProvider>
+        {children}
+        <Toaster position="top-center" richColors />
       </body>
     </html>
   );

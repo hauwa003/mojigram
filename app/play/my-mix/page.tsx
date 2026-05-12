@@ -31,7 +31,6 @@ export default function MyMixPage() {
         if (!res.ok) return;
         const data = await res.json();
         setPacks(data.packs);
-        // Pre-select any previously saved packs
         const saved = getSelectedPacks();
         if (saved.length > 0) setSelectedIds(saved);
       } catch {
@@ -53,8 +52,6 @@ export default function MyMixPage() {
     setStarting(true);
     try {
       const anonId = createAnonymousId();
-
-      // Save selection for next time
       saveSelectedPacks(selectedIds);
 
       const res = await fetch("/api/practice", {
@@ -107,19 +104,17 @@ export default function MyMixPage() {
     );
   }
 
-  // Pack selection phase
   if (phase === "pick") {
     return (
       <AppShell>
         <div className="space-y-5">
           <div>
-            <h2 className="font-heading text-xl font-bold">My Mix 🎨</h2>
+            <h2 className="font-heading text-xl font-extrabold">My Mix 🎨</h2>
             <p className="text-sm text-muted-foreground mt-1">
               Pick the packs you want to play, then hit start
             </p>
           </div>
 
-          {/* Selected pills */}
           {selectedPacks.length > 0 && (
             <div className="flex flex-wrap gap-2">
               {selectedPacks.map((pack) => (
@@ -139,11 +134,11 @@ export default function MyMixPage() {
             onToggle={handleToggle}
           />
 
-          <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.95 }} transition={spring.bouncy}>
+          <motion.div whileTap={{ scale: 0.97, x: 2, y: 2 }} transition={spring.bouncy}>
             <Button
               onClick={startGame}
               disabled={starting}
-              className="w-full h-12 text-base font-semibold bg-primary hover:bg-primary/90 shadow-purple"
+              className="w-full h-12 text-base font-extrabold bg-primary hover:bg-primary/90 border-3 border-foreground shadow-brutal brutal-press"
             >
               {starting
                 ? "Mixing..."
@@ -157,11 +152,10 @@ export default function MyMixPage() {
     );
   }
 
-  // Game phase
   return (
     <AppShell>
       <div>
-        <h2 className="font-heading text-xl font-bold mb-2">My Mix</h2>
+        <h2 className="font-heading text-xl font-extrabold mb-2">My Mix</h2>
         <GameScreen
           sessionId={sessionId}
           sessionType="my_mix"
