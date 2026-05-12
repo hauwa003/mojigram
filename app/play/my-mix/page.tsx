@@ -1,12 +1,12 @@
 "use client";
 
 import { useEffect, useState, useCallback } from "react";
-import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import { AppShell } from "@/components/layout";
 import { GameScreen } from "@/components/game/GameScreen";
 import { PackGrid } from "@/components/packs/PackGrid";
 import { SelectedPackPill } from "@/components/packs/SelectedPackPill";
+import { DifficultyPicker } from "@/components/levels/DifficultyPicker";
 import { Button } from "@/components/ui/button";
 import { createAnonymousId } from "@/lib/utils/createAnonymousId";
 import { getSelectedPacks, saveSelectedPacks } from "@/lib/preferences/selectedPacks";
@@ -14,11 +14,13 @@ import { spring } from "@/lib/motion";
 import type { PuzzleForPlay } from "@/types/puzzle";
 import type { PuzzlePack } from "@/types/puzzle";
 
+type Difficulty = "easy" | "medium" | "hard";
+
 export default function MyMixPage() {
-  const router = useRouter();
   const [phase, setPhase] = useState<"pick" | "play">("pick");
   const [packs, setPacks] = useState<PuzzlePack[]>([]);
   const [selectedIds, setSelectedIds] = useState<string[]>([]);
+  const [difficulty, setDifficulty] = useState<Difficulty>("easy");
   const [puzzles, setPuzzles] = useState<PuzzleForPlay[]>([]);
   const [sessionId, setSessionId] = useState("");
   const [loadingPacks, setLoadingPacks] = useState(true);
@@ -60,6 +62,7 @@ export default function MyMixPage() {
         body: JSON.stringify({
           packIds: selectedIds.length > 0 ? selectedIds : undefined,
           count: 5,
+          difficulty,
         }),
       });
       if (!res.ok) throw new Error("Failed to load puzzles");
@@ -84,7 +87,7 @@ export default function MyMixPage() {
     } finally {
       setStarting(false);
     }
-  }, [selectedIds]);
+  }, [selectedIds, difficulty]);
 
   const selectedPacks = packs.filter((p) => selectedIds.includes(p.id));
 
@@ -111,9 +114,11 @@ export default function MyMixPage() {
           <div>
             <h2 className="font-heading text-xl font-extrabold">My Mix 🎨</h2>
             <p className="text-sm text-muted-foreground mt-1">
-              Pick the packs you want to play, then hit start
+              Pick packs and difficulty, then hit start
             </p>
           </div>
+
+          <DifficultyPicker selected={difficulty} onSelect={setDifficulty} />
 
           {selectedPacks.length > 0 && (
             <div className="flex flex-wrap gap-2">
