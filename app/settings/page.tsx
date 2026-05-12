@@ -5,15 +5,19 @@ import { AppShell } from "@/components/layout";
 import { PackGrid } from "@/components/packs/PackGrid";
 import { Button } from "@/components/ui/button";
 import { getSelectedPacks, saveSelectedPacks } from "@/lib/preferences/selectedPacks";
+import { getNickname, saveNickname } from "@/lib/utils/nickname";
+import { Input } from "@/components/ui/input";
 import { toast } from "sonner";
 import type { PuzzlePack } from "@/types/puzzle";
 
 export default function SettingsPage() {
   const [packs, setPacks] = useState<PuzzlePack[]>([]);
   const [selectedIds, setSelectedIds] = useState<string[]>([]);
+  const [nickname, setNickname] = useState("");
 
   useEffect(() => {
     setSelectedIds(getSelectedPacks());
+    setNickname(getNickname() ?? "");
 
     async function loadPacks() {
       try {
@@ -34,6 +38,12 @@ export default function SettingsPage() {
     );
   }
 
+  function handleSaveNickname() {
+    if (!nickname.trim()) return;
+    saveNickname(nickname.trim());
+    toast.success("Nickname saved!");
+  }
+
   function handleSave() {
     saveSelectedPacks(selectedIds);
     toast.success("Pack preferences saved!");
@@ -50,6 +60,32 @@ export default function SettingsPage() {
         </div>
 
         <div className="space-y-4">
+          <h2 className="font-heading text-lg font-bold">Profile</h2>
+          <p className="text-sm text-muted-foreground">
+            Set a nickname for the leaderboard
+          </p>
+          <div className="flex gap-2">
+            <Input
+              placeholder="Enter a nickname"
+              value={nickname}
+              onChange={(e) => setNickname(e.target.value)}
+              maxLength={20}
+              className="border-3 border-foreground shadow-brutal-sm"
+              onKeyDown={(e) => {
+                if (e.key === "Enter") handleSaveNickname();
+              }}
+            />
+            <Button
+              onClick={handleSaveNickname}
+              disabled={!nickname.trim()}
+              className="bg-primary hover:bg-primary/90 border-3 border-foreground shadow-brutal-sm brutal-press font-bold"
+            >
+              Save
+            </Button>
+          </div>
+        </div>
+
+        <div className="space-y-4 pt-4 border-t-2 border-foreground">
           <h2 className="font-heading text-lg font-bold">
             My Mix Packs
           </h2>
