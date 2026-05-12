@@ -111,8 +111,9 @@ export default function MyMixPage() {
     return (
       <AppShell>
         <div className="space-y-5">
-          <div>
-            <h2 className="font-heading text-xl font-extrabold">My Mix 🎨</h2>
+          <div className="text-center">
+            <span className="text-4xl">🎨</span>
+            <h2 className="font-heading text-xl font-extrabold mt-2">My Mix</h2>
             <p className="text-sm text-muted-foreground mt-1">
               Pick packs and difficulty, then hit start
             </p>

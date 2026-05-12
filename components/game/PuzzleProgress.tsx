@@ -9,21 +9,28 @@ interface PuzzleProgressProps {
 }
 
 export function PuzzleProgress({ current, total }: PuzzleProgressProps) {
-  const progress = (current / total) * 100;
-
   return (
-    <div className="flex-1 mr-4">
-      <p className="text-sm text-muted-foreground font-medium mb-1">
-        Puzzle {current} of {total}
-      </p>
-      <div className="h-3 bg-muted rounded-full overflow-hidden border-2 border-foreground">
-        <motion.div
-          className="h-full bg-primary rounded-full"
-          initial={{ width: 0 }}
-          animate={{ width: `${progress}%` }}
-          transition={spring.gentle}
-        />
-      </div>
+    <div className="flex gap-1.5">
+      {Array.from({ length: total }, (_, i) => {
+        const index = i + 1;
+        const isDone = index < current;
+        const isCurrent = index === current;
+        return (
+          <motion.div
+            key={i}
+            className={`h-2 rounded-full ${
+              isDone
+                ? "bg-primary w-2"
+                : isCurrent
+                  ? "bg-primary w-6"
+                  : "bg-muted w-2"
+            }`}
+            initial={isCurrent ? { width: 8 } : undefined}
+            animate={isCurrent ? { width: 24 } : undefined}
+            transition={spring.gentle}
+          />
+        );
+      })}
     </div>
   );
 }

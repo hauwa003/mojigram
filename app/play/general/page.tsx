@@ -54,30 +54,33 @@ export default function GeneralPage() {
   if (phase === "pick") {
     return (
       <AppShell>
-        <div className="space-y-5">
-          <div>
-            <h2 className="font-heading text-xl font-extrabold">
-              General Mode 🎲
-            </h2>
-            <p className="text-sm text-muted-foreground mt-1">
-              Random puzzles from all packs — pick your difficulty
-            </p>
-          </div>
+        <div className="flex flex-col justify-center min-h-[calc(100dvh-10rem)]">
+          <div className="space-y-6">
+            <div className="text-center">
+              <span className="text-4xl">🎲</span>
+              <h2 className="font-heading text-xl font-extrabold mt-2">
+                General Mode
+              </h2>
+              <p className="text-sm text-muted-foreground mt-1">
+                Random puzzles from all packs
+              </p>
+            </div>
 
-          <DifficultyPicker selected={difficulty} onSelect={setDifficulty} />
+            <DifficultyPicker selected={difficulty} onSelect={setDifficulty} />
 
-          <motion.div
-            whileTap={{ scale: 0.97, x: 2, y: 2 }}
-            transition={spring.bouncy}
-          >
-            <Button
-              onClick={startGame}
-              disabled={loading}
-              className="w-full h-12 text-base font-extrabold bg-primary hover:bg-primary/90 border-3 border-foreground shadow-brutal brutal-press"
+            <motion.div
+              whileTap={{ scale: 0.97, x: 2, y: 2 }}
+              transition={spring.bouncy}
             >
-              {loading ? "Loading..." : "Start"}
-            </Button>
-          </motion.div>
+              <Button
+                onClick={startGame}
+                disabled={loading}
+                className="w-full h-12 text-base font-extrabold bg-primary hover:bg-primary/90 border-3 border-foreground shadow-brutal brutal-press"
+              >
+                {loading ? "Loading..." : "Start"}
+              </Button>
+            </motion.div>
+          </div>
         </div>
       </AppShell>
     );
