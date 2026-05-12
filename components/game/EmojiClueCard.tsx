@@ -19,7 +19,7 @@ export function EmojiClueCard({ emojiClue, accessibilityLabel }: EmojiClueCardPr
       animate={{ scale: 1, opacity: 1 }}
       transition={spring.bouncy}
     >
-      <span className="text-7xl sm:text-8xl tracking-wider select-none">
+      <span className="text-4xl sm:text-5xl tracking-wider select-none">
         {emojiClue}
       </span>
     </motion.div>
