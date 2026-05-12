@@ -2,6 +2,7 @@
 
 import { useEffect, useState, useCallback } from "react";
 import { useRouter } from "next/navigation";
+import { motion } from "framer-motion";
 import { AppShell } from "@/components/layout";
 import { GameScreen } from "@/components/game/GameScreen";
 import { PackGrid } from "@/components/packs/PackGrid";
@@ -9,6 +10,7 @@ import { SelectedPackPill } from "@/components/packs/SelectedPackPill";
 import { Button } from "@/components/ui/button";
 import { createAnonymousId } from "@/lib/utils/createAnonymousId";
 import { getSelectedPacks, saveSelectedPacks } from "@/lib/preferences/selectedPacks";
+import { spring } from "@/lib/motion";
 import type { PuzzleForPlay } from "@/types/puzzle";
 import type { PuzzlePack } from "@/types/puzzle";
 
@@ -93,7 +95,13 @@ export default function MyMixPage() {
     return (
       <AppShell>
         <div className="flex items-center justify-center py-20">
-          <span className="text-4xl animate-bounce inline-block">🎨</span>
+          <motion.span
+            className="text-4xl inline-block"
+            animate={{ y: [0, -12, 0] }}
+            transition={{ duration: 0.6, repeat: Infinity, ease: "easeInOut" }}
+          >
+            🎨
+          </motion.span>
         </div>
       </AppShell>
     );
@@ -131,17 +139,19 @@ export default function MyMixPage() {
             onToggle={handleToggle}
           />
 
-          <Button
-            onClick={startGame}
-            disabled={starting}
-            className="w-full h-12 text-base font-semibold bg-primary hover:bg-primary/90"
-          >
-            {starting
-              ? "Mixing..."
-              : selectedIds.length > 0
-              ? `Start with ${selectedIds.length} pack${selectedIds.length > 1 ? "s" : ""}`
-              : "Start with all packs"}
-          </Button>
+          <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.95 }} transition={spring.bouncy}>
+            <Button
+              onClick={startGame}
+              disabled={starting}
+              className="w-full h-12 text-base font-semibold bg-primary hover:bg-primary/90 shadow-purple"
+            >
+              {starting
+                ? "Mixing..."
+                : selectedIds.length > 0
+                ? `Start with ${selectedIds.length} pack${selectedIds.length > 1 ? "s" : ""}`
+                : "Start with all packs"}
+            </Button>
+          </motion.div>
         </div>
       </AppShell>
     );

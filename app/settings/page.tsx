@@ -1,6 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useTheme } from "next-themes";
+import { Moon, Sun } from "lucide-react";
 import { AppShell } from "@/components/layout";
 import { PackGrid } from "@/components/packs/PackGrid";
 import { Button } from "@/components/ui/button";
@@ -9,6 +11,7 @@ import { toast } from "sonner";
 import type { PuzzlePack } from "@/types/puzzle";
 
 export default function SettingsPage() {
+  const { theme, setTheme } = useTheme();
   const [packs, setPacks] = useState<PuzzlePack[]>([]);
   const [selectedIds, setSelectedIds] = useState<string[]>([]);
 
@@ -47,6 +50,38 @@ export default function SettingsPage() {
           <p className="text-sm text-muted-foreground mt-1">
             Customize your Mojigram experience
           </p>
+        </div>
+
+        {/* Appearance */}
+        <div className="space-y-3">
+          <h2 className="font-heading text-lg font-semibold">Appearance</h2>
+          <div className="flex items-center justify-between bg-card rounded-xl border border-border p-4">
+            <div className="flex items-center gap-3">
+              {theme === "dark" ? (
+                <Moon className="h-5 w-5 text-primary" />
+              ) : (
+                <Sun className="h-5 w-5 text-primary" />
+              )}
+              <div>
+                <p className="font-medium text-sm">Dark Mode</p>
+                <p className="text-xs text-muted-foreground">
+                  {theme === "dark" ? "On" : theme === "system" ? "System" : "Off"}
+                </p>
+              </div>
+            </div>
+            <button
+              onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+              className={`relative w-12 h-7 rounded-full transition-colors ${
+                theme === "dark" ? "bg-primary" : "bg-muted"
+              }`}
+            >
+              <span
+                className={`absolute top-0.5 left-0.5 w-6 h-6 bg-white rounded-full shadow transition-transform ${
+                  theme === "dark" ? "translate-x-5" : "translate-x-0"
+                }`}
+              />
+            </button>
+          </div>
         </div>
 
         <div className="space-y-4">

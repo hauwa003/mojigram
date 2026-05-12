@@ -2,6 +2,7 @@
 
 import { useReducer, useState, useCallback } from "react";
 import { useRouter } from "next/navigation";
+import { AnimatePresence, motion } from "framer-motion";
 import { EmojiClueCard } from "./EmojiClueCard";
 import { AnswerInput } from "./AnswerInput";
 import { SubmitButton } from "./SubmitButton";
@@ -11,13 +12,15 @@ import { PuzzleProgress } from "./PuzzleProgress";
 import { ScoreBadge } from "./ScoreBadge";
 import { ResultGrid } from "./ResultGrid";
 import { HintModal } from "@/components/modals/HintModal";
+import { useConfetti } from "./ConfettiOverlay";
 import { showCorrectFeedback, showWrongFeedback, showFailedFeedback } from "./FeedbackToast";
 import { NicknameModal } from "@/components/modals/NicknameModal";
 import { getNickname, saveNickname } from "@/lib/utils/nickname";
 import { createAnonymousId } from "@/lib/utils/createAnonymousId";
 import { track } from "@/lib/analytics/track";
+import { spring } from "@/lib/motion";
 import type { PuzzleForPlay } from "@/types/puzzle";
-import type { GameState, PuzzleState, GameAction, SessionResult, PuzzleResult } from "@/types/game";
+import type { GameState, PuzzleState, GameAction, PuzzleResult } from "@/types/game";
 import type { SessionType } from "@/types/game";
 
 function getRankLabel(score: number, maxScore: number): string {
@@ -155,9 +158,16 @@ export function GameScreen({
   const [currentHint, setCurrentHint] = useState("");
   const [nicknameModalOpen, setNicknameModalOpen] = useState(false);
   const [scoreSaved, setScoreSaved] = useState(false);
+  const [shake, setShake] = useState(false);
+  const { fire: fireConfetti, ConfettiOverlay } = useConfetti();
 
   const currentPuzzleState = state.puzzleStates[state.currentPuzzleIndex];
   const currentPuzzle = currentPuzzleState?.puzzle;
+
+  const triggerShake = useCallback(() => {
+    setShake(true);
+    setTimeout(() => setShake(false), 500);
+  }, []);
 
   const saveScore = useCallback(async (nickname: string) => {
     if (scoreSaved) return;
@@ -214,6 +224,7 @@ export function GameScreen({
 
       if (data.correct) {
         showCorrectFeedback();
+        fireConfetti();
         setGuess("");
         // Auto-advance after short delay
         setTimeout(() => {
@@ -225,6 +236,7 @@ export function GameScreen({
         }, 1200);
       } else if (currentPuzzleState.attempts + 1 >= currentPuzzleState.maxAttempts) {
         showFailedFeedback(data.answer || "???");
+        triggerShake();
         setGuess("");
         setTimeout(() => {
           if (state.currentPuzzleIndex + 1 >= state.puzzles.length) {
@@ -235,6 +247,7 @@ export function GameScreen({
         }, 2000);
       } else {
         showWrongFeedback();
+        triggerShake();
         setGuess("");
       }
     } catch {
@@ -242,7 +255,7 @@ export function GameScreen({
     } finally {
       setLoading(false);
     }
-  }, [guess, loading, currentPuzzle, currentPuzzleState, state, sessionType]);
+  }, [guess, loading, currentPuzzle, currentPuzzleState, state, sessionType, fireConfetti, triggerShake]);
 
   const handleHint = useCallback(async () => {
     if (!currentPuzzle) return;
@@ -308,6 +321,7 @@ export function GameScreen({
 
     return (
       <div className="py-4">
+        <ConfettiOverlay />
         <NicknameModal
           open={nicknameModalOpen}
           onSave={(name) => {
@@ -343,6 +357,8 @@ export function GameScreen({
 
   return (
     <div className="space-y-6 py-4">
+      <ConfettiOverlay />
+
       {/* Progress + Score */}
       <div className="flex items-center justify-between">
         <PuzzleProgress
@@ -352,11 +368,21 @@ export function GameScreen({
         <ScoreBadge score={state.totalScore} />
       </div>
 
-      {/* Emoji Clue */}
-      <EmojiClueCard
-        emojiClue={currentPuzzle.emoji_clue}
-        accessibilityLabel={currentPuzzle.accessibility_label}
-      />
+      {/* Emoji Clue with AnimatePresence for puzzle transitions */}
+      <AnimatePresence mode="wait">
+        <motion.div
+          key={state.currentPuzzleIndex}
+          initial={{ opacity: 0, x: 40 }}
+          animate={{ opacity: 1, x: 0 }}
+          exit={{ opacity: 0, x: -40 }}
+          transition={spring.gentle}
+        >
+          <EmojiClueCard
+            emojiClue={currentPuzzle.emoji_clue}
+            accessibilityLabel={currentPuzzle.accessibility_label}
+          />
+        </motion.div>
+      </AnimatePresence>
 
       {/* Attempts */}
       <div className="flex justify-center">
@@ -374,6 +400,7 @@ export function GameScreen({
             onChange={setGuess}
             onSubmit={handleSubmit}
             disabled={loading}
+            shake={shake}
           />
           <SubmitButton
             onClick={handleSubmit}
@@ -398,9 +425,13 @@ export function GameScreen({
             hintUsed={currentPuzzleState.hintUsed}
           />
           {currentPuzzleState.hintUsed && currentHint && (
-            <p className="mt-2 text-sm bg-yellow-light rounded-lg px-4 py-2 text-foreground">
+            <motion.p
+              className="mt-2 text-sm bg-yellow-light rounded-lg px-4 py-2 text-foreground"
+              initial={{ opacity: 0, y: -8 }}
+              animate={{ opacity: 1, y: 0 }}
+            >
               {currentHint}
-            </p>
+            </motion.p>
           )}
         </div>
       )}
