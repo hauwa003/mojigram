@@ -1,5 +1,6 @@
 "use client";
 
+import { motion } from "framer-motion";
 import { Input } from "@/components/ui/input";
 
 interface AnswerInputProps {
@@ -8,6 +9,7 @@ interface AnswerInputProps {
   onSubmit: () => void;
   disabled?: boolean;
   placeholder?: string;
+  shake?: boolean;
 }
 
 export function AnswerInput({
@@ -16,23 +18,29 @@ export function AnswerInput({
   onSubmit,
   disabled = false,
   placeholder = "Type your answer...",
+  shake = false,
 }: AnswerInputProps) {
   return (
-    <Input
-      type="text"
-      value={value}
-      onChange={(e) => onChange(e.target.value)}
-      onKeyDown={(e) => {
-        if (e.key === "Enter" && value.trim()) {
-          onSubmit();
-        }
-      }}
-      disabled={disabled}
-      placeholder={placeholder}
-      className="text-center text-lg h-12 rounded-xl"
-      autoComplete="off"
-      autoCapitalize="off"
-      spellCheck={false}
-    />
+    <motion.div
+      animate={shake ? { x: [0, -10, 10, -10, 10, 0] } : { x: 0 }}
+      transition={{ duration: 0.4 }}
+    >
+      <Input
+        type="text"
+        value={value}
+        onChange={(e) => onChange(e.target.value)}
+        onKeyDown={(e) => {
+          if (e.key === "Enter" && value.trim()) {
+            onSubmit();
+          }
+        }}
+        disabled={disabled}
+        placeholder={placeholder}
+        className="text-center text-lg h-14 rounded-2xl border-2 focus-visible:border-purple"
+        autoComplete="off"
+        autoCapitalize="off"
+        spellCheck={false}
+      />
+    </motion.div>
   );
 }

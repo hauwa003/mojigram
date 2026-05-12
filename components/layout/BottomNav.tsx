@@ -2,13 +2,15 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { motion } from "framer-motion";
+import { Home, CalendarDays, Target, Trophy, Settings } from "lucide-react";
 
 const navItems = [
-  { href: "/", label: "Home", icon: "🏠" },
-  { href: "/play/daily", label: "Daily", icon: "📅" },
-  { href: "/play/practice", label: "Practice", icon: "🎯" },
-  { href: "/leaderboard", label: "Ranks", icon: "🏆" },
-  { href: "/settings", label: "Settings", icon: "⚙️" },
+  { href: "/", label: "Home", icon: Home },
+  { href: "/play/daily", label: "Daily", icon: CalendarDays },
+  { href: "/play/practice", label: "Practice", icon: Target },
+  { href: "/leaderboard", label: "Ranks", icon: Trophy },
+  { href: "/settings", label: "Settings", icon: Settings },
 ];
 
 export function BottomNav() {
@@ -22,19 +24,30 @@ export function BottomNav() {
             item.href === "/"
               ? pathname === "/"
               : pathname.startsWith(item.href);
+          const Icon = item.icon;
 
           return (
-            <Link
-              key={item.href}
-              href={item.href}
-              className={`flex flex-col items-center gap-0.5 px-3 py-1.5 rounded-lg transition-colors ${
-                isActive
-                  ? "text-primary"
-                  : "text-muted-foreground hover:text-foreground"
-              }`}
-            >
-              <span className="text-xl">{item.icon}</span>
-              <span className="text-xs font-medium">{item.label}</span>
+            <Link key={item.href} href={item.href} className="relative">
+              <motion.div
+                className={`flex flex-col items-center gap-0.5 px-3 py-1.5 rounded-xl transition-colors ${
+                  isActive
+                    ? "text-primary"
+                    : "text-muted-foreground hover:text-foreground"
+                }`}
+                whileTap={{ scale: 0.92 }}
+              >
+                {isActive && (
+                  <motion.div
+                    layoutId="activeTab"
+                    className="absolute inset-0 bg-purple-light rounded-xl"
+                    transition={{ type: "spring", stiffness: 400, damping: 30 }}
+                  />
+                )}
+                <Icon className="h-5 w-5 relative z-10" />
+                <span className="text-xs font-medium relative z-10">
+                  {item.label}
+                </span>
+              </motion.div>
             </Link>
           );
         })}

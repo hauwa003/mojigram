@@ -1,6 +1,8 @@
 "use client";
 
+import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
+import { spring } from "@/lib/motion";
 
 interface SubmitButtonProps {
   onClick: () => void;
@@ -10,12 +12,18 @@ interface SubmitButtonProps {
 
 export function SubmitButton({ onClick, disabled = false, loading = false }: SubmitButtonProps) {
   return (
-    <Button
-      onClick={onClick}
-      disabled={disabled || loading}
-      className="w-full h-12 text-base font-semibold rounded-xl bg-primary hover:bg-primary/90"
+    <motion.div
+      whileHover={{ scale: 1.02 }}
+      whileTap={{ scale: 0.95 }}
+      transition={spring.bouncy}
     >
-      {loading ? "Checking..." : "Submit"}
-    </Button>
+      <Button
+        onClick={onClick}
+        disabled={disabled || loading}
+        className="w-full h-14 text-base font-bold rounded-2xl bg-primary hover:bg-primary/90 shadow-purple"
+      >
+        {loading ? "Checking..." : "Submit"}
+      </Button>
+    </motion.div>
   );
 }

@@ -2,9 +2,11 @@
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
+import { motion } from "framer-motion";
 import { AppShell } from "@/components/layout";
 import { GameScreen } from "@/components/game/GameScreen";
 import { createAnonymousId } from "@/lib/utils/createAnonymousId";
+import { spring } from "@/lib/motion";
 import type { PuzzleForPlay } from "@/types/puzzle";
 
 export default function GeneralPage() {
@@ -50,7 +52,13 @@ export default function GeneralPage() {
       <AppShell>
         <div className="flex items-center justify-center py-20">
           <div className="text-center space-y-3">
-            <span className="text-4xl animate-bounce inline-block">🎲</span>
+            <motion.span
+              className="text-4xl inline-block"
+              animate={{ y: [0, -12, 0] }}
+              transition={{ duration: 0.6, repeat: Infinity, ease: "easeInOut" }}
+            >
+              🎲
+            </motion.span>
             <p className="text-muted-foreground">Loading puzzles...</p>
           </div>
         </div>

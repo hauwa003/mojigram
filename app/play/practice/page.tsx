@@ -2,8 +2,10 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { motion } from "framer-motion";
 import { AppShell } from "@/components/layout";
 import { Card, CardContent } from "@/components/ui/card";
+import { spring } from "@/lib/motion";
 import type { PuzzlePack } from "@/types/puzzle";
 
 export default function PracticePage() {
@@ -30,7 +32,13 @@ export default function PracticePage() {
     return (
       <AppShell>
         <div className="flex items-center justify-center py-20">
-          <span className="text-4xl animate-bounce inline-block">🎯</span>
+          <motion.span
+            className="text-4xl inline-block"
+            animate={{ y: [0, -12, 0] }}
+            transition={{ duration: 0.6, repeat: Infinity, ease: "easeInOut" }}
+          >
+            🎯
+          </motion.span>
         </div>
       </AppShell>
     );
@@ -49,17 +57,23 @@ export default function PracticePage() {
         <div className="grid grid-cols-2 gap-3">
           {packs.map((pack) => (
             <Link key={pack.id} href={`/play/practice/${pack.slug}`}>
-              <Card className="hover:shadow-md transition-shadow h-full border border-border">
-                <CardContent className="p-4 text-center space-y-2">
-                  <span className="text-3xl">{pack.emoji_icon}</span>
-                  <h3 className="font-heading text-sm font-bold">
-                    {pack.name}
-                  </h3>
-                  <p className="text-xs text-muted-foreground">
-                    {pack.puzzle_count} puzzles
-                  </p>
-                </CardContent>
-              </Card>
+              <motion.div
+                whileHover={{ scale: 1.03 }}
+                whileTap={{ scale: 0.95 }}
+                transition={spring.bouncy}
+              >
+                <Card className="hover:shadow-md transition-shadow h-full border border-border">
+                  <CardContent className="p-4 text-center space-y-2">
+                    <span className="text-3xl">{pack.emoji_icon}</span>
+                    <h3 className="font-heading text-sm font-bold">
+                      {pack.name}
+                    </h3>
+                    <p className="text-xs text-muted-foreground">
+                      {pack.puzzle_count} puzzles
+                    </p>
+                  </CardContent>
+                </Card>
+              </motion.div>
             </Link>
           ))}
         </div>
