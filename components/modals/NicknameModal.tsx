@@ -21,7 +21,7 @@ export function NicknameModal({ open, onSave }: NicknameModalProps) {
 
   return (
     <Dialog open={open} onOpenChange={() => {}}>
-      <DialogContent className="max-w-sm mx-auto" showCloseButton={false}>
+      <DialogContent className="max-w-sm mx-auto border-3 border-foreground shadow-brutal" showCloseButton={false}>
         <DialogHeader>
           <DialogTitle className="font-heading text-xl">
             Pick a nickname
@@ -38,6 +38,7 @@ export function NicknameModal({ open, onSave }: NicknameModalProps) {
             onChange={(e) => setName(e.target.value)}
             maxLength={20}
             autoFocus
+            className="border-3 border-foreground shadow-brutal-sm"
             onKeyDown={(e) => {
               if (e.key === "Enter" && name.trim()) {
                 onSave(name.trim());
@@ -45,7 +46,7 @@ export function NicknameModal({ open, onSave }: NicknameModalProps) {
             }}
           />
           <Button
-            className="w-full"
+            className="w-full bg-primary hover:bg-primary/90 border-3 border-foreground shadow-brutal-sm brutal-press font-bold"
             disabled={!name.trim()}
             onClick={() => onSave(name.trim())}
           >
